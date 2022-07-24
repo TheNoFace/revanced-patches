@@ -21,6 +21,7 @@ import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensi
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.insertBlocks
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.ad.general.bytecode.utils.MethodUtils.createMutableMethod
+import app.revanced.patches.youtube.ad.general.resource.patch.GeneralResourceAdsPatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
 import org.jf.dexlib2.Opcode
@@ -38,7 +39,9 @@ import org.jf.dexlib2.iface.reference.StringReference
 import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 
 @Patch
-@Dependencies([ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class])
+@Dependencies(
+    dependencies = [ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class, GeneralResourceAdsPatch::class]
+)
 @Name("general-ads")
 @Description("Removes general ads.")
 @GeneralAdsCompatibility
