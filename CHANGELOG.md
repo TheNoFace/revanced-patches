@@ -1,3 +1,21 @@
+# [2.22.0](https://github.com/TheNoFace/revanced-patches/compare/v2.21.3...v2.22.0) (2022-07-26)
+
+
+### Bug Fixes
+
+* build only on main branch ([5d6c7fc](https://github.com/TheNoFace/revanced-patches/commit/5d6c7fc5c6d2d7414b380f1312a66d0ddc788d4c))
+* remove broken video-quality patch ([e8d516a](https://github.com/TheNoFace/revanced-patches/commit/e8d516af896971a09bb9aca8b00e7b7bb57c3dd9))
+
+
+### Features
+
+* `default-video-quality` patch ([#141](https://github.com/TheNoFace/revanced-patches/issues/141)) ([609ad7d](https://github.com/TheNoFace/revanced-patches/commit/609ad7dee7e29b2ecc4e95a93e9dab1646b4b050))
+
+
+### Reverts
+
+* Revert "fix: remove refreshing home screen not working" ([9169f47](https://github.com/TheNoFace/revanced-patches/commit/9169f47c686db0c1cbb4d92ea75aba4ec2ba65c1))
+
 ## [2.22.1](https://github.com/revanced/revanced-patches/compare/v2.22.0...v2.22.1) (2022-07-24)
 
 
