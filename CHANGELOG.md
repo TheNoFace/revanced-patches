@@ -1,3 +1,19 @@
+# [2.23.0](https://github.com/TheNoFace/revanced-patches/compare/v2.22.0...v2.23.0) (2022-07-27)
+
+
+### Bug Fixes
+
+* `default-video-quality` patch crashing ([#227](https://github.com/TheNoFace/revanced-patches/issues/227)) ([379327a](https://github.com/TheNoFace/revanced-patches/commit/379327a6b2325ef93c7107472343dd9fd85a0f56))
+* bump youtube version to 17.29.34 ([#236](https://github.com/TheNoFace/revanced-patches/issues/236)) ([be6494a](https://github.com/TheNoFace/revanced-patches/commit/be6494a80989044cba961dc22fc58ffb2e8591f0))
+* rename `default-video-quality` to `remember-video-quality` ([7f6cdfd](https://github.com/TheNoFace/revanced-patches/commit/7f6cdfd7c2b5e72742bbb92e4d584f722cb82cae))
+
+
+### Features
+
+* `general-reddit-ads` patch ([#235](https://github.com/TheNoFace/revanced-patches/issues/235)) ([d63c016](https://github.com/TheNoFace/revanced-patches/commit/d63c016d38d2a5b1d152abccdb582990987a1911))
+* `music-microg-support` patch ([#208](https://github.com/TheNoFace/revanced-patches/issues/208)) ([50863e9](https://github.com/TheNoFace/revanced-patches/commit/50863e97cc8eba7e1ad6d11b4821baa45fdd29c4))
+* bump compatibility of YouTube Music patches to v5.16.51 ([#238](https://github.com/TheNoFace/revanced-patches/issues/238)) ([4fa2a12](https://github.com/TheNoFace/revanced-patches/commit/4fa2a127d715f953a1e4efacaecbc218209a01f3))
+
 <<<<<<< HEAD
 ## [2.25.2](https://github.com/revanced/revanced-patches/compare/v2.25.1...v2.25.2) (2022-07-26)
 =======
