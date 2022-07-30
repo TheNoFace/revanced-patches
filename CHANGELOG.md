@@ -1,3 +1,10 @@
+## [2.23.1](https://github.com/TheNoFace/revanced-patches/compare/v2.23.0...v2.23.1) (2022-07-30)
+
+
+### Bug Fixes
+
+* actually call `VideoInformation.setCurrentVideoId` first ([5c62d0a](https://github.com/TheNoFace/revanced-patches/commit/5c62d0a2e0217de1b9563a41b4e94ed63230440f))
+
 # [2.23.0](https://github.com/TheNoFace/revanced-patches/compare/v2.22.0...v2.23.0) (2022-07-27)
 
 
