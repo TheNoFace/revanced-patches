@@ -5,24 +5,22 @@
 
 * actually call `VideoInformation.setCurrentVideoId` first ([5c62d0a](https://github.com/TheNoFace/revanced-patches/commit/5c62d0a2e0217de1b9563a41b4e94ed63230440f))
 
-# [2.23.0](https://github.com/TheNoFace/revanced-patches/compare/v2.22.0...v2.23.0) (2022-07-27)
+# [2.22.0](https://github.com/TheNoFace/revanced-patches/compare/v2.21.3...v2.22.0) (2022-07-26) - Diverged
 
 
 ### Bug Fixes
 
-* actually call `VideoInformation.setCurrentVideoId` first ([5c62d0a](https://github.com/revanced/revanced-patches/commit/5c62d0a2e0217de1b9563a41b4e94ed63230440f))
-
-# [2.22.0](https://github.com/TheNoFace/revanced-patches/compare/v2.21.3...v2.22.0) (2022-07-26)
-
-
-### Bug Fixes
-
+* `default-video-quality` patch crashing ([#227](https://github.com/revanced/revanced-patches/issues/227)) ([379327a]https://github.com/TheNoFace/revanced-patches/commit/379327a6b2325ef93c7107472343dd9fd85a0f56))
+* bump youtube version to 17.29.34 ([#236](https://github.com/revanced/revanced-patches/issues/236)) ([be6494a]https://github.com/TheNoFace/revanced-patches/commit/be6494a80989044cba961dc22fc58ffb2e8591f0))
 * build only on main branch ([5d6c7fc](https://github.com/TheNoFace/revanced-patches/commit/5d6c7fc5c6d2d7414b380f1312a66d0ddc788d4c))
 * remove broken video-quality patch ([e8d516a](https://github.com/TheNoFace/revanced-patches/commit/e8d516af896971a09bb9aca8b00e7b7bb57c3dd9))
 
 
 ### Features
 
+* `general-reddit-ads` patch ([#235](https://github.com/revanced/revanced-patches/issues/235)) ([d63c016]https://github.com/TheNoFace/revanced-patches/commit/d63c016d38d2a5b1d152abccdb582990987a1911))
+* `music-microg-support` patch ([#208](https://github.com/revanced/revanced-patches/issues/208)) ([50863e9]https://github.com/TheNoFace/revanced-patches/commit/50863e97cc8eba7e1ad6d11b4821baa45fdd29c4))
+* bump compatibility of YouTube Music patches to v5.16.51 ([#238](https://github.com/revanced/revanced-patches/issues/238)) ([4fa2a12]https://github.com/TheNoFace/revanced-patches/commit/4fa2a127d715f953a1e4efacaecbc218209a01f3))
 * `default-video-quality` patch ([#141](https://github.com/TheNoFace/revanced-patches/issues/141)) ([609ad7d](https://github.com/TheNoFace/revanced-patches/commit/609ad7dee7e29b2ecc4e95a93e9dab1646b4b050))
 
 
