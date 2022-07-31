@@ -1,3 +1,10 @@
+# [2.24.0](https://github.com/TheNoFace/revanced-patches/compare/v2.23.1...v2.24.0) (2022-07-31)
+
+
+### Features
+
+* `ResourceUtils` helper class ([e0e1144](https://github.com/TheNoFace/revanced-patches/commit/e0e11447a7ac184d43c75955854c52c6992ff667))
+
 ## [2.23.1](https://github.com/TheNoFace/revanced-patches/compare/v2.23.0...v2.23.1) (2022-07-30)
 
 
