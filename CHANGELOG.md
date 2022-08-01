@@ -1,4 +1,29 @@
+<<<<<<< HEAD
 # [2.24.0](https://github.com/TheNoFace/revanced-patches/compare/v2.23.1...v2.24.0) (2022-07-31)
+=======
+## [2.28.1](https://github.com/revanced/revanced-patches/compare/v2.28.0...v2.28.1) (2022-07-31)
+
+
+### Bug Fixes
+
+* add missing permission to reboot app ([#260](https://github.com/revanced/revanced-patches/issues/260)) ([6ced6df](https://github.com/revanced/revanced-patches/commit/6ced6df8ed7642dea51e1acd1c12f4de4874b972))
+
+# [2.28.0](https://github.com/revanced/revanced-patches/compare/v2.27.0...v2.28.0) (2022-07-31)
+
+
+### Features
+
+* add `custom-video-buffer` patch ([9f117c7](https://github.com/revanced/revanced-patches/commit/9f117c74cdbdcf98eae97cf4c37f0baca451d695))
+
+# [2.27.0](https://github.com/revanced/revanced-patches/compare/v2.26.0...v2.27.0) (2022-07-31)
+
+
+### Features
+
+* `settings` patch ([0e229a4](https://github.com/revanced/revanced-patches/commit/0e229a46cb5b8b74183c47a6eae08d667f941406))
+
+# [2.26.0](https://github.com/revanced/revanced-patches/compare/v2.25.3...v2.26.0) (2022-07-31)
+>>>>>>> upstream/main
 
 
 ### Features
