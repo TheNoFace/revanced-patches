@@ -1,3 +1,22 @@
+# [2.26.0](https://github.com/TheNoFace/revanced-patches/compare/v2.25.0...v2.26.0) (2022-08-03)
+
+
+### Bug Fixes
+
+* incorrect fingerprint version [skip ci] ([f8c62ae](https://github.com/TheNoFace/revanced-patches/commit/f8c62ae16b088ff6d0e96a4ef62dc707cd83beb9))
+* migrate to new patcher api ([f43446e](https://github.com/TheNoFace/revanced-patches/commit/f43446ed189e583302fcd899f5eb7517f2a77144))
+* Migrate to new patcher api ([ce3dcc0](https://github.com/TheNoFace/revanced-patches/commit/ce3dcc0adf815e4c53cca1fba024ce076d9bc980))
+* remove requirement for solution [skip ci] ([#271](https://github.com/TheNoFace/revanced-patches/issues/271)) ([553fad3](https://github.com/TheNoFace/revanced-patches/commit/553fad3fe1bb79bdf34e9f91c0e1cbfda78e1054))
+* rollback to `Dependencies` annotation ([36a2ae8](https://github.com/TheNoFace/revanced-patches/commit/36a2ae886c63f1d22bb1cca9e7110af6c3f6f2d3))
+
+
+### Features
+
+* add "Application Icon Path" option to branding ([1748d1e](https://github.com/TheNoFace/revanced-patches/commit/1748d1e5badf61213d793ff7ae1d090ea2ea82f0))
+* add "Application Name" option to branding and move renaming to CustomBrandingPatch.kt ([8dafe05](https://github.com/TheNoFace/revanced-patches/commit/8dafe05b2c5e2b0291d46b02717d910721673712))
+* remove `force-vp9-codec` patch ([#287](https://github.com/TheNoFace/revanced-patches/issues/287)) ([e428978](https://github.com/TheNoFace/revanced-patches/commit/e42897801b20e7439969954753e2c15c85eb41b5))
+* set the correct theme of the settings screen ([70d850c](https://github.com/TheNoFace/revanced-patches/commit/70d850cf295d306b0de9419efe6a4bbf3857d3a0))
+
 # [2.25.0](https://github.com/TheNoFace/revanced-patches/compare/v2.24.0...v2.25.0) (2022-08-01)
 
 
