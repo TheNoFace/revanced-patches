@@ -39,7 +39,7 @@ import org.jf.dexlib2.iface.reference.StringReference
 import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 
 @Patch
-@DependsOn([ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class])
+@DependsOn([ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class, GeneralResourceAdsPatch::class])
 @Name("general-ads")
 @Description("Removes general ads.")
 @GeneralAdsCompatibility
