@@ -5,22 +5,25 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.layout.returnyoutubedislike.annotations.ReturnYouTubeDislikeCompatibility
+import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
+import org.jf.dexlib2.Opcode
+import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
 
-// TODO: This is more of a class fingerprint than a method fingerprint.
-//  Convert to a class fingerprint whenever possible.
-@Name("license-activity-fingerprint")
+@Name("theme-setter-fingerprint")
 @MatchingMethod(
-    "Lcom/google/android/libraries/social/licenses/LicenseActivity;", "onCreate"
+    "Lfyq;", "a"
 )
 @ReturnYouTubeDislikeCompatibility
 @Version("0.0.1")
-object LicenseActivityFingerprint : MethodFingerprint(
+object ThemeSetterFingerprint : MethodFingerprint(
+    "L",
     null,
     null,
-    null,
-    null,
+    listOf(Opcode.RETURN_OBJECT),
     null,
     { methodDef ->
-        methodDef.definingClass.endsWith("LicenseActivity;") && methodDef.name == "onCreate"
+        methodDef.implementation?.instructions?.any {
+            it.opcode.ordinal == Opcode.CONST.ordinal && (it as WideLiteralInstruction).wideLiteral == SettingsPatch.appearanceStringId
+        } == true
     }
 )

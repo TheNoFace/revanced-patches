@@ -2,20 +2,19 @@ package app.revanced.patches.youtube.layout.sponsorblock.resource.patch
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.DomFileEditor
 import app.revanced.patcher.data.impl.ResourceData
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.Dependencies
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import java.io.OutputStream
+import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
 
 @Name("sponsorblock-resource-patch")
 @SponsorBlockCompatibility
-@Dependencies([FixLocaleConfigErrorPatch::class])
+@DependsOn([FixLocaleConfigErrorPatch::class])
 @Version("0.0.1")
 class SponsorBlockResourcePatch : ResourcePatch() {
     override fun execute(data: ResourceData): PatchResult {
@@ -29,7 +28,7 @@ class SponsorBlockResourcePatch : ResourcePatch() {
 
         // copy nodes from the resources node to the real resource node
         "resources".copyXmlNode(
-            data.xmlEditor[stringsResourceInputStream, OutputStream.nullOutputStream()],
+            data.xmlEditor[stringsResourceInputStream],
             data.xmlEditor["res/$stringsResourcePath"]
         ).close() // close afterwards
 
@@ -78,7 +77,7 @@ class SponsorBlockResourcePatch : ResourcePatch() {
 
                 val targetXmlEditor = data.xmlEditor["res/$path/$resource.xml"]
                 "RelativeLayout".copyXmlNode(
-                    data.xmlEditor[hostingResourceStream, OutputStream.nullOutputStream()],
+                    data.xmlEditor[hostingResourceStream],
                     targetXmlEditor
                 ).also {
                     val children = targetXmlEditor.file.getElementsByTagName("RelativeLayout").item(0).childNodes
@@ -101,28 +100,5 @@ class SponsorBlockResourcePatch : ResourcePatch() {
             }
         }
         return PatchResultSuccess()
-    }
-
-    /**
-     * Copies the specified node of the source [DomFileEditor] to the target [DomFileEditor].
-     * @param source the source [DomFileEditor].
-     * @param target the target [DomFileEditor]-
-     */
-    private fun String.copyXmlNode(source: DomFileEditor, target: DomFileEditor): AutoCloseable {
-        val hostNodes = source.file.getElementsByTagName(this).item(0).childNodes
-
-        val destinationResourceFile = target.file
-        val destinationNode = destinationResourceFile.getElementsByTagName(this).item(0)
-
-        for (index in 0 until hostNodes.length) {
-            val node = hostNodes.item(index).cloneNode(true)
-            destinationResourceFile.adoptNode(node)
-            destinationNode.appendChild(node)
-        }
-
-        return AutoCloseable {
-            source.close()
-            target.close()
-        }
     }
 }
