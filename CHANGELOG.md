@@ -1,3 +1,16 @@
+# [2.27.0](https://github.com/TheNoFace/revanced-patches/compare/v2.26.0...v2.27.0) (2022-08-07)
+
+
+### Bug Fixes
+
+* incorrect compatibilty attribute ([#296](https://github.com/TheNoFace/revanced-patches/issues/296)) ([0ab3e97](https://github.com/TheNoFace/revanced-patches/commit/0ab3e9724157c628555964273c6b65f9f48f9664))
+
+
+### Features
+
+* `promo-code-unlock` patch ([#292](https://github.com/TheNoFace/revanced-patches/issues/292)) ([d5df2e6](https://github.com/TheNoFace/revanced-patches/commit/d5df2e68f47cbb3d374b8ce24769872959014051))
+* bump music patches to 5.17.51 ([#307](https://github.com/TheNoFace/revanced-patches/issues/307)) ([c303589](https://github.com/TheNoFace/revanced-patches/commit/c303589bd8d1956ce2e3c4c285d45a648b5db30f))
+
 # [2.26.0](https://github.com/TheNoFace/revanced-patches/compare/v2.25.0...v2.26.0) (2022-08-03)
 
 
