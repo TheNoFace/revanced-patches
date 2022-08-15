@@ -1,3 +1,18 @@
+# [2.28.0](https://github.com/TheNoFace/revanced-patches/compare/v2.27.1...v2.28.0) (2022-08-15)
+
+
+### Bug Fixes
+
+* add missing switch for tablet mini-player ([b824d35](https://github.com/TheNoFace/revanced-patches/commit/b824d35960df9e99c2a2d248356c3c9342cfe130))
+* disable cast modules in YouTube Music ([#337](https://github.com/TheNoFace/revanced-patches/issues/337)) ([86eaba8](https://github.com/TheNoFace/revanced-patches/commit/86eaba8248100987f46540a224956099bcf9da2c))
+
+
+### Features
+
+* `swipe-controls` override volume button behaviour ([#285](https://github.com/TheNoFace/revanced-patches/issues/285)) ([69465f3](https://github.com/TheNoFace/revanced-patches/commit/69465f3a9934973a2449605a248a462510e10ff6))
+* `tablet-mini-player` patch ([dae41f1](https://github.com/TheNoFace/revanced-patches/commit/dae41f1c59d26d00b1ba821dbe1521e68226f47c))
+* `tiktok-ads` patch ([#335](https://github.com/TheNoFace/revanced-patches/issues/335)) ([81bef57](https://github.com/TheNoFace/revanced-patches/commit/81bef57742bfaefcdfe02fd290cca6923341149a))
+
 ## [2.27.1](https://github.com/TheNoFace/revanced-patches/compare/v2.27.0...v2.27.1) (2022-08-08)
 
 
