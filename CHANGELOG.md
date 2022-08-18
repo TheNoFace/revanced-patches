@@ -1,3 +1,11 @@
+# [2.29.0](https://github.com/TheNoFace/revanced-patches/compare/v2.28.0...v2.29.0) (2022-08-18)
+
+
+### Features
+
+* ˋpflotsh-ecmwf-subscription-unlockˋ patch ([#332](https://github.com/TheNoFace/revanced-patches/issues/332)) ([ae2a1d8](https://github.com/TheNoFace/revanced-patches/commit/ae2a1d8362e388032c3521101ff60698c4af1583))
+* bump YouTube patches to `v17.32.35` ([#347](https://github.com/TheNoFace/revanced-patches/issues/347)) ([5292a0e](https://github.com/TheNoFace/revanced-patches/commit/5292a0e973953225f94eed887a5d8f1ead17bb97))
+
 # [2.28.0](https://github.com/TheNoFace/revanced-patches/compare/v2.27.1...v2.28.0) (2022-08-15)
 
 
