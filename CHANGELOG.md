@@ -1,3 +1,19 @@
+# [2.30.0](https://github.com/TheNoFace/revanced-patches/compare/v2.29.0...v2.30.0) (2022-08-22)
+
+
+### Bug Fixes
+
+* add missing switch for `tablet-mini-player` patch ([244a1b2](https://github.com/TheNoFace/revanced-patches/commit/244a1b2cb9f77272dc62287a4a34a487b0289295))
+* correct title for `tablet-miniplayer` setting switch ([6af6c02](https://github.com/TheNoFace/revanced-patches/commit/6af6c02154d170153093bd846dfcb7a6205dd6fa))
+* make `custom-branding` cross-platform ([#366](https://github.com/TheNoFace/revanced-patches/issues/366)) ([02ac62b](https://github.com/TheNoFace/revanced-patches/commit/02ac62b0ea7e47ff3aa5078ce4645421f410b154))
+
+
+### Features
+
+* `downloads` patch ([#215](https://github.com/TheNoFace/revanced-patches/issues/215)) ([304fbac](https://github.com/TheNoFace/revanced-patches/commit/304fbacab22538fb0945f564e061783b47120120))
+* `settings` patch framework ([#266](https://github.com/TheNoFace/revanced-patches/issues/266)) ([084a99b](https://github.com/TheNoFace/revanced-patches/commit/084a99bc6f5ed67c0b270e219c2dd75a30f302f1))
+* bundle `dex` file into `jar` file ([#359](https://github.com/TheNoFace/revanced-patches/issues/359)) ([f419252](https://github.com/TheNoFace/revanced-patches/commit/f4192526eab1e3e0208e7460847b892e077fcf5a))
+
 # [2.29.0](https://github.com/TheNoFace/revanced-patches/compare/v2.28.0...v2.29.0) (2022-08-18)
 
 
