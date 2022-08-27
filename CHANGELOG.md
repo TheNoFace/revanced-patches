@@ -30,7 +30,7 @@
 # [2.29.0](https://github.com/TheNoFace/revanced-patches/compare/v2.28.0...v2.29.0) (2022-08-18)
 
 
-### Features
+### Bug Fixes
 
 * ˋpflotsh-ecmwf-subscription-unlockˋ patch ([#332](https://github.com/TheNoFace/revanced-patches/issues/332)) ([ae2a1d8](https://github.com/TheNoFace/revanced-patches/commit/ae2a1d8362e388032c3521101ff60698c4af1583))
 * bump YouTube patches to `v17.32.35` ([#347](https://github.com/TheNoFace/revanced-patches/issues/347)) ([5292a0e](https://github.com/TheNoFace/revanced-patches/commit/5292a0e973953225f94eed887a5d8f1ead17bb97))
@@ -65,7 +65,7 @@
 * incorrect compatibilty attribute ([#296](https://github.com/TheNoFace/revanced-patches/issues/296)) ([0ab3e97](https://github.com/TheNoFace/revanced-patches/commit/0ab3e9724157c628555964273c6b65f9f48f9664))
 
 
-### Features
+### Bug Fixes
 
 * `promo-code-unlock` patch ([#292](https://github.com/TheNoFace/revanced-patches/issues/292)) ([d5df2e6](https://github.com/TheNoFace/revanced-patches/commit/d5df2e68f47cbb3d374b8ce24769872959014051))
 * bump music patches to 5.17.51 ([#307](https://github.com/TheNoFace/revanced-patches/issues/307)) ([c303589](https://github.com/TheNoFace/revanced-patches/commit/c303589bd8d1956ce2e3c4c285d45a648b5db30f))
