@@ -1,3 +1,18 @@
+# [2.32.0](https://github.com/TheNoFace/revanced-patches/compare/v2.31.0...v2.32.0) (2022-08-27)
+
+
+### Bug Fixes
+
+* `Patch` annotation for `client-spoof` patch ([6a8af47](https://github.com/TheNoFace/revanced-patches/commit/6a8af47f2dfb319a53db9b5f9deb0392f10f4185))
+* changed default value for autorepeat setting ([#386](https://github.com/TheNoFace/revanced-patches/issues/386)) ([d43add7](https://github.com/TheNoFace/revanced-patches/commit/d43add7c21f0d9f45830476704985755e37d33ef))
+* package name for Vanced ([#390](https://github.com/TheNoFace/revanced-patches/issues/390)) ([85206b9](https://github.com/TheNoFace/revanced-patches/commit/85206b99e1399d00e5eaebded8aadc5fb982aaa4))
+
+
+### Features
+
+* `client-spoof` patch ([5512c07](https://github.com/TheNoFace/revanced-patches/commit/5512c072fa4b047849dbea0d2d382dd85e3a0827))
+* add debug switch ([#391](https://github.com/TheNoFace/revanced-patches/issues/391)) ([ee4b776](https://github.com/TheNoFace/revanced-patches/commit/ee4b7761d8bb4549f2f100f721c90c664eedfe4a))
+
 # [2.31.0](https://github.com/TheNoFace/revanced-patches/compare/v2.30.0...v2.31.0) (2022-08-24)
 
 
