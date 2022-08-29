@@ -1,6 +1,6 @@
 ## 🧩 Patches
 
-The unofficial Patch bundle provided by ReVanced and the community.
+The official Patch bundle provided by ReVanced and the community.
 
 > Looking for the JSON variant of this? [Click here](patches.json).
 
