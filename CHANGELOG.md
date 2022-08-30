@@ -1,3 +1,18 @@
+# [2.34.0](https://github.com/TheNoFace/revanced-patches/compare/v2.33.0...v2.34.0) (2022-08-30)
+
+
+### Bug Fixes
+
+* `seekbar-tapping` toggling ([#401](https://github.com/TheNoFace/revanced-patches/issues/401)) ([5550244](https://github.com/TheNoFace/revanced-patches/commit/55502446ce5967922f2e9711a5fea2758fe31e83))
+* release `patches.json` file ([#402](https://github.com/TheNoFace/revanced-patches/issues/402)) ([17e351c](https://github.com/TheNoFace/revanced-patches/commit/17e351c99a69652f20d89e579f43c1ce110cd81d))
+
+
+### Features
+
+* `premium-icon-reddit` patch ([#333](https://github.com/TheNoFace/revanced-patches/issues/333)) ([6739e7b](https://github.com/TheNoFace/revanced-patches/commit/6739e7b94c18200bb3afbc9a8465d97bd18d1945))
+* blacklist `.vsc` folder in `.gitignore` ([#331](https://github.com/TheNoFace/revanced-patches/issues/331)) ([1922253](https://github.com/TheNoFace/revanced-patches/commit/1922253118e670aa66b33186f5cee2ffb3c55718))
+* bump youtube version to v17.33.42 ([#398](https://github.com/TheNoFace/revanced-patches/issues/398)) ([769aa25](https://github.com/TheNoFace/revanced-patches/commit/769aa25a6fffbff4c895ae8a291d97836ba03ed9))
+
 # [2.33.0](https://github.com/TheNoFace/revanced-patches/compare/v2.32.0...v2.33.0) (2022-08-29)
 
 
