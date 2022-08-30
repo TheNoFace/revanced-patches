@@ -1,7 +1,7 @@
 # [2.33.0](https://github.com/TheNoFace/revanced-patches/compare/v2.32.0...v2.33.0) (2022-08-29)
 
 
-### Bug Fixes
+### Features
 
 * add `patches.json` as a release asset ([a0b2c89](https://github.com/TheNoFace/revanced-patches/commit/a0b2c89071d64efa7629a8d6d6bc0492c9772aa9))
 * run meta generator ([70a2b45](https://github.com/TheNoFace/revanced-patches/commit/70a2b456b4031b3da38a18a71ede7bf84099acd0))

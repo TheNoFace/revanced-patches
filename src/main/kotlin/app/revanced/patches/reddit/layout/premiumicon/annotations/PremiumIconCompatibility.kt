@@ -1,13 +1,13 @@
-package app.revanced.patches.youtube.misc.manifest.annotations
+package app.revanced.patches.reddit.layout.premiumicon.annotations
 
 import app.revanced.patcher.annotation.Compatibility
 import app.revanced.patcher.annotation.Package
 
 @Compatibility(
     [Package(
-        "com.google.android.youtube", arrayOf()
+        "com.reddit.frontpage", arrayOf()
     )]
 )
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
-internal annotation class FixLocaleConfigErrorCompatibility
+internal annotation class PremiumIconCompatibility
