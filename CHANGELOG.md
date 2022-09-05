@@ -1,3 +1,22 @@
+# [2.35.0](https://github.com/TheNoFace/revanced-patches/compare/v2.34.0...v2.35.0) (2022-09-05)
+
+
+### Bug Fixes
+
+* do not constrain `amoled` patch to versions ([#408](https://github.com/TheNoFace/revanced-patches/issues/408)) ([4af1714](https://github.com/TheNoFace/revanced-patches/commit/4af1714dae4da40fe7488e8b734da91c978f1bdf))
+* don't overwrite register in `compact-header` patch ([#406](https://github.com/TheNoFace/revanced-patches/issues/406)) ([3da8ab5](https://github.com/TheNoFace/revanced-patches/commit/3da8ab5702f5c2a0384ce85fcb3df3b837cdc90e))
+* don't respect primary color for the download button icon ([#424](https://github.com/TheNoFace/revanced-patches/issues/424)) ([3fa70f4](https://github.com/TheNoFace/revanced-patches/commit/3fa70f48a206c56f6ca8aed88baed722e76281e2))
+* partial ad blockage in `tiktok-ads` patch ([#420](https://github.com/TheNoFace/revanced-patches/issues/420)) ([bc6d192](https://github.com/TheNoFace/revanced-patches/commit/bc6d19205940e3b4b228a9b5de627a2260abd00e))
+* resolve fingerprint in `premium-icon-reddit` patch ([#413](https://github.com/TheNoFace/revanced-patches/issues/413)) ([60ec2c6](https://github.com/TheNoFace/revanced-patches/commit/60ec2c6f8a29cfc36313617a92e976f01213ce00))
+* wrong dependency version ([1e63a57](https://github.com/TheNoFace/revanced-patches/commit/1e63a57b86475670442e6a24a7f24c02dabee239))
+
+
+### Features
+
+* `tiktok-download` and `tiktok-seekbar` patch ([#405](https://github.com/TheNoFace/revanced-patches/issues/405)) ([f36e000](https://github.com/TheNoFace/revanced-patches/commit/f36e0007c52f4e925a3a2370cdb51bd45ee00a1b))
+* bump YouTube Music patches to v5.21.52 ([#404](https://github.com/TheNoFace/revanced-patches/issues/404)) ([0abb196](https://github.com/TheNoFace/revanced-patches/commit/0abb1960c10f03149e45e9e5074cafcc1801fc32))
+* bump YouTube Music patches to v5.22.54 ([#409](https://github.com/TheNoFace/revanced-patches/issues/409)) ([859176e](https://github.com/TheNoFace/revanced-patches/commit/859176e3ece415243ba887424513a961fe4a5ad8))
+
 # [2.34.0](https://github.com/TheNoFace/revanced-patches/compare/v2.33.0...v2.34.0) (2022-08-30)
 
 
