@@ -1,3 +1,28 @@
+# [2.36.0](https://github.com/TheNoFace/revanced-patches/compare/v2.35.0...v2.36.0) (2022-09-16)
+
+
+### Bug Fixes
+
+* `auto-captions` patch switch description ([#488](https://github.com/TheNoFace/revanced-patches/issues/488)) ([57824fb](https://github.com/TheNoFace/revanced-patches/commit/57824fb16c56889d8f18299e9bab2563bb13e5c2))
+* alignment of download button icon ([#477](https://github.com/TheNoFace/revanced-patches/issues/477)) ([2093f11](https://github.com/TheNoFace/revanced-patches/commit/2093f11e762c471a0987fb57f03c7f48d565fdce))
+* cleanup & trigger release for ThemePatch ([8d25b21](https://github.com/TheNoFace/revanced-patches/commit/8d25b214e297797092432b5fe1a4ede1f42115c8)), closes [#447](https://github.com/TheNoFace/revanced-patches/issues/447) [revanced/revanced-patcher#99](https://github.com/revanced/revanced-patcher/issues/99)
+* design language for download icon ([#464](https://github.com/TheNoFace/revanced-patches/issues/464)) ([c24dc17](https://github.com/TheNoFace/revanced-patches/commit/c24dc175f705fd5364b8bcf01f27f3ac8ecc0e64))
+* multiple compatible pkgs on readme ([3f82a13](https://github.com/TheNoFace/revanced-patches/commit/3f82a1349fb11b1152ac10d76deb930f7325b7c9))
+* path for download icon ([#465](https://github.com/TheNoFace/revanced-patches/issues/465)) ([bff22c3](https://github.com/TheNoFace/revanced-patches/commit/bff22c3a154fd8059f4f8995a303354633a50517))
+* wrap theme option ([150c173](https://github.com/TheNoFace/revanced-patches/commit/150c173adce31d9984d6feca694b472649233056))
+
+
+### Features
+
+* `disable-auto-captions` patch ([#435](https://github.com/TheNoFace/revanced-patches/issues/435)) ([8ee12d0](https://github.com/TheNoFace/revanced-patches/commit/8ee12d0beadfd0a8fdce0a331646e8786527e84d))
+* add deprecated & options to patches.json ([759315b](https://github.com/TheNoFace/revanced-patches/commit/759315be1b23a6b3655fc87b56a8974ebac648cc))
+* **amoled:** remove in favour of `theme` patch ([0032301](https://github.com/TheNoFace/revanced-patches/commit/00323010ed7356a639e4e86916dcbae96a53f7f6))
+* bump YouTube Music patches to v5.23.50 ([#462](https://github.com/TheNoFace/revanced-patches/issues/462)) ([15c10b1](https://github.com/TheNoFace/revanced-patches/commit/15c10b1e0368a021b0f2ec46bc2e9ea84a5d5afd))
+* patch requests issue template ([#467](https://github.com/TheNoFace/revanced-patches/issues/467)) ([d8bb354](https://github.com/TheNoFace/revanced-patches/commit/d8bb35472258c0634599102f4f4bf4cea587a817)), closes [revanced/revanced-patches#463](https://github.com/revanced/revanced-patches/issues/463)
+* Theme Patch ([#440](https://github.com/TheNoFace/revanced-patches/issues/440)) ([f3b92ca](https://github.com/TheNoFace/revanced-patches/commit/f3b92cab5a057ce605b6d9e75e3b99161bf1422c))
+* **theme:** arbitrary background color for dark theme ([afd5502](https://github.com/TheNoFace/revanced-patches/commit/afd5502afdb207d5f52516653869b26fae7e5d21))
+* **tiktok-download:** custom download path ([#479](https://github.com/TheNoFace/revanced-patches/issues/479)) ([944aa48](https://github.com/TheNoFace/revanced-patches/commit/944aa485cec513faa30a21b91887dcacf9d70b45))
+
 # [2.35.0](https://github.com/TheNoFace/revanced-patches/compare/v2.34.0...v2.35.0) (2022-09-05)
 
 
