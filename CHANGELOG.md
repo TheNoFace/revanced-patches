@@ -1,3 +1,27 @@
+# [2.38.0](https://github.com/TheNoFace/revanced-patches/compare/v2.37.0...v2.38.0) (2022-09-22)
+
+
+### Bug Fixes
+
+* **custom-playback-speed:** implement own method instead of `takeWhile` ([8522d4c](https://github.com/TheNoFace/revanced-patches/commit/8522d4cd705118bf1108ec88bbed542a0cb15943))
+* **custom-video-buffer:** use correct offset for `getMaxBuffer` call injection ([6773122](https://github.com/TheNoFace/revanced-patches/commit/6773122d0b1598af78d4619b8af2811be11f6b95))
+* **sponsorblock:** broken fingerprint and invert setting `shorts_playing` ([#579](https://github.com/TheNoFace/revanced-patches/issues/579)) ([59fb674](https://github.com/TheNoFace/revanced-patches/commit/59fb674437207aeabed5b92ba32bda120820fb8f))
+* **sponsorblock:** reflect strings from official guidelines ([#523](https://github.com/TheNoFace/revanced-patches/issues/523)) ([1c83959](https://github.com/TheNoFace/revanced-patches/commit/1c83959e69bfbf5140edbf7ef4d2c8901975bfd4))
+
+
+### Features
+
+* `disable-auto-player-popup-panels` ([#543](https://github.com/TheNoFace/revanced-patches/issues/543)) ([d1fa2c3](https://github.com/TheNoFace/revanced-patches/commit/d1fa2c3bc359018146f1f90b1ed4448b7f19b247))
+* `hide-time-and-seekbar` patch ([#544](https://github.com/TheNoFace/revanced-patches/issues/544)) ([ef7afc7](https://github.com/TheNoFace/revanced-patches/commit/ef7afc7231f8fa6b9b7f84c2b5b9a9fda80aa0f4))
+* `tiktok-feed-filter` , `tiktok-settings` and `tiktok-force-login` patch ([#501](https://github.com/TheNoFace/revanced-patches/issues/501)) ([10e0286](https://github.com/TheNoFace/revanced-patches/commit/10e028626f2b9d9d01279682198daf135bc82c20))
+* **custom-playback-speed:** max, min, granularity option ([b1e423d](https://github.com/TheNoFace/revanced-patches/commit/b1e423d9cdca51e54c154cc39a24c508ca322f60))
+* disable sponsorblock on shorts ([#439](https://github.com/TheNoFace/revanced-patches/issues/439)) ([47fbcba](https://github.com/TheNoFace/revanced-patches/commit/47fbcba3f845b5c3ef35c4dded8d6f9ffafc5d9e))
+* **downloads:** missing package installation request ([bc9e81a](https://github.com/TheNoFace/revanced-patches/commit/bc9e81a6c343a912cab6fe3c2560d759fbf1be8a))
+* explicit support for YouTube v17.34.35 and v17.34.36 ([#527](https://github.com/TheNoFace/revanced-patches/issues/527)) ([1b6a64b](https://github.com/TheNoFace/revanced-patches/commit/1b6a64b49c54ab53df463981a9ad7ec67729939f))
+* section `acknowledgements` for issue templates ([f663935](https://github.com/TheNoFace/revanced-patches/commit/f663935382036cfdccf04627ca77306c5f951b4c))
+* **sponsorblock:** string for response error code 400 ([#512](https://github.com/TheNoFace/revanced-patches/issues/512)) ([d42569f](https://github.com/TheNoFace/revanced-patches/commit/d42569fcc4367fa65c5c88ddc75098d4e208f7f3))
+* **theme:** arbitrary background color for light theme  ([#565](https://github.com/TheNoFace/revanced-patches/issues/565)) ([da40e7e](https://github.com/TheNoFace/revanced-patches/commit/da40e7e0cf266edc89353e62b9821b450f8f0295))
+
 # [2.37.0](https://github.com/TheNoFace/revanced-patches/compare/v2.36.0...v2.37.0) (2022-09-18)
 
 
