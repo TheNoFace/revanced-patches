@@ -1,3 +1,20 @@
+# [2.39.0](https://github.com/TheNoFace/revanced-patches/compare/v2.38.0...v2.39.0) (2022-09-24)
+
+
+### Bug Fixes
+
+* **hide-premium-nav-bar:** invalid import ([#590](https://github.com/TheNoFace/revanced-patches/issues/590)) ([37ad223](https://github.com/TheNoFace/revanced-patches/commit/37ad22360e6ac5e1b1dce474fe6a4e3813e03330))
+* **hide-premium-navbar:** remove the correct instructions ([#591](https://github.com/TheNoFace/revanced-patches/issues/591)) ([b4b0c97](https://github.com/TheNoFace/revanced-patches/commit/b4b0c972d28cf7591ece04d154d1183c8431cb77))
+* **hide-time-and-seekbar:** don't draw the seekbar ([#594](https://github.com/TheNoFace/revanced-patches/issues/594)) ([46e0195](https://github.com/TheNoFace/revanced-patches/commit/46e0195f760dc11ec8d2068ffb57997eccab1aff))
+* **seekbar-tapping:** do not disable seekbar when hiding it ([#600](https://github.com/TheNoFace/revanced-patches/issues/600)) ([68a9457](https://github.com/TheNoFace/revanced-patches/commit/68a9457464c786a61b756eb18ca5f1ce05316636))
+* **sponsorblock:** resolve unresolved fingerprint ([e7296f3](https://github.com/TheNoFace/revanced-patches/commit/e7296f3424bed78a0149cca9bf6e29243e962150))
+
+
+### Features
+
+* `hide-premium-nav-bar` patch ([#589](https://github.com/TheNoFace/revanced-patches/issues/589)) ([1811416](https://github.com/TheNoFace/revanced-patches/commit/18114168d7f8c3dd41d1f124c3524c7ca850d33d))
+* **tiktok:** adapt `tiktok-download` with `tiktok-settings`. ([#586](https://github.com/TheNoFace/revanced-patches/issues/586)) ([876b726](https://github.com/TheNoFace/revanced-patches/commit/876b7266109b099597dd19d6ed3fa3dac098b73b))
+
 # [2.38.0](https://github.com/TheNoFace/revanced-patches/compare/v2.37.0...v2.38.0) (2022-09-22)
 
 
