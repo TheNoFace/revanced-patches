@@ -1,3 +1,10 @@
+# [2.40.0](https://github.com/TheNoFace/revanced-patches/compare/v2.39.0...v2.40.0) (2022-09-24)
+
+
+### Features
+
+* `spotify-theme` patch ([#608](https://github.com/TheNoFace/revanced-patches/issues/608)) ([7ee1b78](https://github.com/TheNoFace/revanced-patches/commit/7ee1b78e8048698ef6490445dd012e2d88b4d332))
+
 # [2.39.0](https://github.com/TheNoFace/revanced-patches/compare/v2.38.0...v2.39.0) (2022-09-24)
 
 
