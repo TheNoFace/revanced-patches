@@ -1,3 +1,17 @@
+## [2.40.1](https://github.com/TheNoFace/revanced-patches/compare/v2.40.0...v2.40.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* **sponsorblock:** correct class name for field reference ([#582](https://github.com/TheNoFace/revanced-patches/issues/582)) ([7cd585c](https://github.com/TheNoFace/revanced-patches/commit/7cd585cd78e284a82cee17d09f8049f0a5cdf2e8))
+* **sponsorblock:** dynamically insert `setSponsorBarRect` call ([#644](https://github.com/TheNoFace/revanced-patches/issues/644)) ([998a249](https://github.com/TheNoFace/revanced-patches/commit/998a249a23d09eb752b35c4da731f4223be40a3b))
+* **sponsorblock:** reflect changes to strings ([#585](https://github.com/TheNoFace/revanced-patches/issues/585)) ([d03568a](https://github.com/TheNoFace/revanced-patches/commit/d03568aa39195a07bec62f43d929923825c67d3f))
+
+
+### Performance Improvements
+
+* **resource-mapping:** map resources with multiple threads ([a7e4da0](https://github.com/TheNoFace/revanced-patches/commit/a7e4da018bf939accdf6d406b471ac74f9078095))
+
 # [2.40.0](https://github.com/TheNoFace/revanced-patches/compare/v2.39.0...v2.40.0) (2022-09-24)
 
 
