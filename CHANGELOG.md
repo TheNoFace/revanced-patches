@@ -1,3 +1,35 @@
+# [2.41.0](https://github.com/TheNoFace/revanced-patches/compare/v2.40.1...v2.41.0) (2022-10-02)
+
+
+### Bug Fixes
+
+* **disable-auto-player-popup-panels:** swap switch toggle state description ([#653](https://github.com/TheNoFace/revanced-patches/issues/653)) ([f881301](https://github.com/TheNoFace/revanced-patches/commit/f88130143689c7a63fd67df3dff37caec5db9548))
+* **disable-startup-shorts-player:** incorrect offsets, invert branch condition ([#672](https://github.com/TheNoFace/revanced-patches/issues/672)) ([bfe1e38](https://github.com/TheNoFace/revanced-patches/commit/bfe1e3808ece85fbb0785a4378ee95591115ac33))
+* **disable-startup-shorts-player:** remove redundant opcode pattern ([#679](https://github.com/TheNoFace/revanced-patches/issues/679)) ([5197a24](https://github.com/TheNoFace/revanced-patches/commit/5197a24cc5ecc1b51cdc5c00c77c873b86394994))
+* **hdr-brightness:** trim list of compatible versions ([#602](https://github.com/TheNoFace/revanced-patches/issues/602)) ([3209d90](https://github.com/TheNoFace/revanced-patches/commit/3209d902e4d1aa73b59ce059cf3f76ef2095af70))
+* **hide-email-address:** invalid instruction offsets ([#654](https://github.com/TheNoFace/revanced-patches/issues/654)) ([1a3db44](https://github.com/TheNoFace/revanced-patches/commit/1a3db44b5bd9628b7b25cc113a3a53bf8a85bd2b))
+* **tiktok/tiktok-downloads:** add missing patch dependencies ([#686](https://github.com/TheNoFace/revanced-patches/issues/686)) ([5c3b4ed](https://github.com/TheNoFace/revanced-patches/commit/5c3b4ed0530e89d50db3b5bb9893e1ef4b463bae))
+* **twitter patches.:** use wider compatible Java API for writing to file ([#678](https://github.com/TheNoFace/revanced-patches/issues/678)) ([4448de8](https://github.com/TheNoFace/revanced-patches/commit/4448de80a6277862d81c7a29b9489e4fbec48496))
+* **twitter/monochrome-icon:** add missing `File.write` call ([#682](https://github.com/TheNoFace/revanced-patches/issues/682)) ([de22e3f](https://github.com/TheNoFace/revanced-patches/commit/de22e3f03ef1d6db08f9446f02e687721d9017d7))
+
+
+### Features
+
+* `disable-capture-restriction` patch ([#655](https://github.com/TheNoFace/revanced-patches/issues/655)) ([3cc26c3](https://github.com/TheNoFace/revanced-patches/commit/3cc26c31d378c27ca7f768f777daa00e3f849dff))
+* `disable-startup-shorts-player` patch ([#670](https://github.com/TheNoFace/revanced-patches/issues/670)) ([feb3bd0](https://github.com/TheNoFace/revanced-patches/commit/feb3bd02aaf67379733d10988fd58b0c3924f88e))
+* `dynamic-color` patch ([#652](https://github.com/TheNoFace/revanced-patches/issues/652)) ([a16575b](https://github.com/TheNoFace/revanced-patches/commit/a16575b984354138b9ab175307be8d15de60b6a6))
+* `hide-email-address` patch ([#578](https://github.com/TheNoFace/revanced-patches/issues/578)) ([82cb632](https://github.com/TheNoFace/revanced-patches/commit/82cb6321beace1e5feed248d3f3d6ae56cf0d96b))
+* `monochrome-icon` patch ([#643](https://github.com/TheNoFace/revanced-patches/issues/643)) ([127c8e5](https://github.com/TheNoFace/revanced-patches/commit/127c8e54e54709c2716029044ae337ad53daafad))
+* `tiktok-speed` patch ([#668](https://github.com/TheNoFace/revanced-patches/issues/668)) ([23fff16](https://github.com/TheNoFace/revanced-patches/commit/23fff16e6ab02bf281d46d8b5f93788425d8b525))
+* bump YouTube Music patches compatibility to v5.26.52 ([#681](https://github.com/TheNoFace/revanced-patches/issues/681)) ([f195734](https://github.com/TheNoFace/revanced-patches/commit/f195734925dd41596d058f9cbf2b7e619a8d5833))
+* bump YouTube Music patches to v5.25.51 ([#669](https://github.com/TheNoFace/revanced-patches/issues/669)) ([563c846](https://github.com/TheNoFace/revanced-patches/commit/563c8466568d578de7c8a8e869fb1aa74370784a))
+* **youtube/hdr-auto-brightness:** increase strength of fingerprint ([2379b58](https://github.com/TheNoFace/revanced-patches/commit/2379b5892b3505c8780f475bbc56f520613fa31d))
+
+
+### Performance Improvements
+
+* **general-ads:** hook pathBuilder ([b9bad0b](https://github.com/TheNoFace/revanced-patches/commit/b9bad0bb922bbd44ddf2acbfae87243beb28851a))
+
 ## [2.40.1](https://github.com/TheNoFace/revanced-patches/compare/v2.40.0...v2.40.1) (2022-09-28)
 
 
