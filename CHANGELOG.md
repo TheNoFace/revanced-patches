@@ -1,3 +1,18 @@
+# [2.42.0](https://github.com/TheNoFace/revanced-patches/compare/v2.41.0...v2.42.0) (2022-10-05)
+
+
+### Bug Fixes
+
+* **youtube/disable-startup-shorts-player:** do not prevent playing videos on startup ([#714](https://github.com/TheNoFace/revanced-patches/issues/714)) ([9a0d379](https://github.com/TheNoFace/revanced-patches/commit/9a0d3798afd75bba5c63e1b8803dc25814586be9))
+* **youtube/disable-startup-shorts-player:** don't affect functionality of navigation bar  ([#716](https://github.com/TheNoFace/revanced-patches/issues/716)) ([05f5cc1](https://github.com/TheNoFace/revanced-patches/commit/05f5cc17e3fcbf255c6fe5b503c9fd20c218f5a1))
+
+
+### Features
+
+* `hide-video-buttons` patch ([584803a](https://github.com/TheNoFace/revanced-patches/commit/584803aa900f94de1b2b2a0c41fb0884fa9270d3))
+* **youtube/general-ads:** check for ad in identifier ([fd0506e](https://github.com/TheNoFace/revanced-patches/commit/fd0506eb95dbf398eb7d6bfa8732f517b9867545))
+* **youtube/remember-video-quality:** remember current quality option ([9c510d4](https://github.com/TheNoFace/revanced-patches/commit/9c510d472048f5bce127eb0329e53aaf259e9b1b))
+
 # [2.41.0](https://github.com/TheNoFace/revanced-patches/compare/v2.40.1...v2.41.0) (2022-10-02)
 
 
