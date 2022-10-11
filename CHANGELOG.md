@@ -1,3 +1,22 @@
+# [2.43.0](https://github.com/TheNoFace/revanced-patches/compare/v2.42.0...v2.43.0) (2022-10-11)
+
+
+### Bug Fixes
+
+* **general-ads:** invalid smali syntax ([86224c1](https://github.com/TheNoFace/revanced-patches/commit/86224c1f601c1bd22c0ce4dcf2a8e79ea3b8b2ae))
+* **theme:** include coloring the playlist action bar ([#742](https://github.com/TheNoFace/revanced-patches/issues/742)) ([6766ec8](https://github.com/TheNoFace/revanced-patches/commit/6766ec8f31da6dd71fff0ae4b7044af5ec4a5dfd))
+* **video-ads:** block remaining video ads ([fbc83a2](https://github.com/TheNoFace/revanced-patches/commit/fbc83a22d37012394311a87d27202b7cc86e047d))
+* **video-ads:** clobber unused register ([0feb607](https://github.com/TheNoFace/revanced-patches/commit/0feb6073dd3de5dc179ffa9fde2da24439986431))
+* **video-ads:** invert the condition to hide ads ([a32af95](https://github.com/TheNoFace/revanced-patches/commit/a32af951566a7187ae2618ef08f9298f78f8ea8c))
+* **video-ads:** return empty ad list instead of null ([f6c5027](https://github.com/TheNoFace/revanced-patches/commit/f6c5027981a2b55bbcd2e55d294ebfd5e6f0b527))
+* **video-ads:** return empty list in correct method ([bbcf050](https://github.com/TheNoFace/revanced-patches/commit/bbcf0501d4be0c43eddb7a9b3c32394222efc8f0))
+* **youtube/video-ads:** invert condition to hide ads ([e353ed0](https://github.com/TheNoFace/revanced-patches/commit/e353ed0b0fe78feae65f1ad2f6567c1e9aa9c71d))
+
+
+### Features
+
+* **youtube/general-ads:** do not hide community posts by default ([6269638](https://github.com/TheNoFace/revanced-patches/commit/626963819c183cbfeca4ff4ab0a16fc39ed9d8a8))
+
 # [2.42.0](https://github.com/TheNoFace/revanced-patches/compare/v2.41.0...v2.42.0) (2022-10-05)
 
 
