@@ -1,3 +1,12 @@
+## [2.43.1](https://github.com/TheNoFace/revanced-patches/compare/v2.43.0...v2.43.1) (2022-10-11)
+
+
+### Bug Fixes
+
+* **spotify/disable-capture-restriction:** dynamically find indices ([#759](https://github.com/TheNoFace/revanced-patches/issues/759)) ([2cc64c6](https://github.com/TheNoFace/revanced-patches/commit/2cc64c61d1bc18a1717354085ddc60a251173837))
+* **youtube/general-ads:** hide ads on wide screens ([#765](https://github.com/TheNoFace/revanced-patches/issues/765)) ([f0d2f3e](https://github.com/TheNoFace/revanced-patches/commit/f0d2f3e01b90bbe6d2b55b941eaf96be2295cd3c))
+* **youtube/theme:** colore the comment action bar ([#762](https://github.com/TheNoFace/revanced-patches/issues/762)) ([4b3abe0](https://github.com/TheNoFace/revanced-patches/commit/4b3abe0d45ac8c0c5ae6cf4955681ba76ce10309))
+
 # [2.43.0](https://github.com/TheNoFace/revanced-patches/compare/v2.42.0...v2.43.0) (2022-10-11)
 
 
