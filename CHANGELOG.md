@@ -1,3 +1,15 @@
+# [2.44.0](https://github.com/TheNoFace/revanced-patches/compare/v2.43.1...v2.44.0) (2022-10-16)
+
+
+### Bug Fixes
+
+* **youtube/theme:** add missing theme condition check ([#771](https://github.com/TheNoFace/revanced-patches/issues/771)) ([40b70b9](https://github.com/TheNoFace/revanced-patches/commit/40b70b9f9a24cfbf76bcd69f562b87e5cfade66f))
+
+
+### Features
+
+* **youtube/remember-video-quality:** remember the quality until changed by default ([1aebabe](https://github.com/TheNoFace/revanced-patches/commit/1aebabefdb0b163e0020fd3b52d7d1fa2404764b))
+
 ## [2.43.1](https://github.com/TheNoFace/revanced-patches/compare/v2.43.0...v2.43.1) (2022-10-11)
 
 
