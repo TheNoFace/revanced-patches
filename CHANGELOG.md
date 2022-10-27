@@ -1,3 +1,32 @@
+# [2.46.0](https://github.com/TheNoFace/revanced-patches/compare/v2.45.0...v2.46.0) (2022-10-27)
+
+
+### Bug Fixes
+
+* **metanav/fix-scaling:** use semantic versioning in package versions ([a9445a8](https://github.com/TheNoFace/revanced-patches/commit/a9445a823e3a4885764cea9d08b51a1584d3238f))
+* **youtube/custom-branding:** use proper scaled icons ([24b5bcd](https://github.com/TheNoFace/revanced-patches/commit/24b5bcdd703474c940fd436a37f0ae924d8b8c74))
+* **youtube/hide-mix-playlists:** correct switch title, summary and defaults ([#821](https://github.com/TheNoFace/revanced-patches/issues/821)) ([f9eea33](https://github.com/TheNoFace/revanced-patches/commit/f9eea332cea0b8c3d5c3dfff645b60861e925b5a))
+* **youtube/integrations:** set context for remaining activities ([#828](https://github.com/TheNoFace/revanced-patches/issues/828)) ([b2b6a3d](https://github.com/TheNoFace/revanced-patches/commit/b2b6a3d1492bc2d5a6e27c68c74e3904764dda4b))
+* **youtube/theme:** extend dark mode theming ([#827](https://github.com/TheNoFace/revanced-patches/issues/827)) ([6d803c5](https://github.com/TheNoFace/revanced-patches/commit/6d803c5386e1f6f6fb6a7fa0a9f0bb81ee1022ac))
+* **youtube/theme:** theme litho ui components & use correct theme for settings ([#791](https://github.com/TheNoFace/revanced-patches/issues/791)) ([91c03c5](https://github.com/TheNoFace/revanced-patches/commit/91c03c5624ca28ac13ee761261dea423f0ac42d7))
+* **youtube/video-ads:** add back initial method to block ads ([#818](https://github.com/TheNoFace/revanced-patches/issues/818)) ([8b02acd](https://github.com/TheNoFace/revanced-patches/commit/8b02acd3b33c4702d81ec46dccb35604ec5fbe02))
+* **youtube/video-ads:** block earlier in call hirarchy ([#813](https://github.com/TheNoFace/revanced-patches/issues/813)) ([f9517d2](https://github.com/TheNoFace/revanced-patches/commit/f9517d2058c7561cf89b59ed36f690417dc076f7))
+* **youtube/video-ads:** revert faulty method patch ([#820](https://github.com/TheNoFace/revanced-patches/issues/820)) ([666248a](https://github.com/TheNoFace/revanced-patches/commit/666248ae65d1ee84d1a278714c0dcd2528c5dd14))
+
+
+### Features
+
+* `comment` patch ([#858](https://github.com/TheNoFace/revanced-patches/issues/858)) ([472fb4f](https://github.com/TheNoFace/revanced-patches/commit/472fb4f3747c835be2c5069a0f65017ab42f8d7e))
+* `fix-metanav-scaling` patch ([#831](https://github.com/TheNoFace/revanced-patches/issues/831)) ([4808e09](https://github.com/TheNoFace/revanced-patches/commit/4808e099856e50a6f7e66834a92e2210cc84c8bc))
+* `hide-album-cards` patch ([#857](https://github.com/TheNoFace/revanced-patches/issues/857)) ([bce9d0c](https://github.com/TheNoFace/revanced-patches/commit/bce9d0c9405d7afd5c51c2a9c2c247f3ff7581f5))
+* `hide-artist-card` patch ([#859](https://github.com/TheNoFace/revanced-patches/issues/859)) ([1f76246](https://github.com/TheNoFace/revanced-patches/commit/1f7624680b86e3a7afd45521bfef86f88f52c976))
+* `hide-crowdfunding-box` patch ([#856](https://github.com/TheNoFace/revanced-patches/issues/856)) ([3704ce2](https://github.com/TheNoFace/revanced-patches/commit/3704ce22dbbff02b2e2d6dbdf9a74254a2511d3c))
+* remove partially complete patch ([d212e19](https://github.com/TheNoFace/revanced-patches/commit/d212e19c3276c2ba6550f03dfd9bba47b7773524))
+* **youtube/hide-mix-playlists:** hide in video suggestions ([#854](https://github.com/TheNoFace/revanced-patches/issues/854)) ([acde5f0](https://github.com/TheNoFace/revanced-patches/commit/acde5f066053ca3d58ca09fc2a6a1381ba27d84b))
+* **youtube/theme:** extend theming to splash screen ([#769](https://github.com/TheNoFace/revanced-patches/issues/769)) ([f7bb937](https://github.com/TheNoFace/revanced-patches/commit/f7bb937ef2374d1042ea3772f03627d7f0111b78))
+* **youtube:** `hide-captions-button` patch ([#770](https://github.com/TheNoFace/revanced-patches/issues/770)) ([478af6a](https://github.com/TheNoFace/revanced-patches/commit/478af6ad54ffdf6f99abab35a84a4f50b59d28c8))
+* **youtube:** `hide-mix-playlists` patch  ([#816](https://github.com/TheNoFace/revanced-patches/issues/816)) ([e76c73b](https://github.com/TheNoFace/revanced-patches/commit/e76c73b455c65aa605e418f19d88b64e0e244901))
+
 # [2.45.0](https://github.com/TheNoFace/revanced-patches/compare/v2.44.0...v2.45.0) (2022-10-19)
 
 
