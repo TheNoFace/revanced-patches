@@ -1,3 +1,23 @@
+# [2.47.0](https://github.com/TheNoFace/revanced-patches/compare/v2.46.0...v2.47.0) (2022-10-31)
+
+
+### Bug Fixes
+
+* **youtube/theme:** theme missing gray color ([#873](https://github.com/TheNoFace/revanced-patches/issues/873)) ([5267d56](https://github.com/TheNoFace/revanced-patches/commit/5267d56a05b4053d556171ffd2d2870f3f932e8e))
+* **youtube:** resolve fingerprints on mutable methods ([10e4af3](https://github.com/TheNoFace/revanced-patches/commit/10e4af386652d51c621519f7a67aac8c22ed8c18))
+
+
+### Features
+
+* `hide-watch-in-vr` patch ([#911](https://github.com/TheNoFace/revanced-patches/issues/911)) ([8ea0b20](https://github.com/TheNoFace/revanced-patches/commit/8ea0b20e96df53211039df0468b2d4a735a381f1))
+* bump YouTube patches to v17.41.37 ([#878](https://github.com/TheNoFace/revanced-patches/issues/878)) ([9072986](https://github.com/TheNoFace/revanced-patches/commit/9072986f99e624386ff51c7eeb1d65158bd9249a))
+* remove compatibility for YouTube  v17.41.37 ([#886](https://github.com/TheNoFace/revanced-patches/issues/886)) ([0f4bc19](https://github.com/TheNoFace/revanced-patches/commit/0f4bc197455574b84dd1cb1a43f03af90858bc39))
+* **youtube/comments:** hide shorts comments button ([#866](https://github.com/TheNoFace/revanced-patches/issues/866)) ([c78a74e](https://github.com/TheNoFace/revanced-patches/commit/c78a74e21b4521034f44e9bfd226c5a362c21e6c))
+* **youtube/microg-support:** handle availability of Vanced MicroG ([bfd0d14](https://github.com/TheNoFace/revanced-patches/commit/bfd0d1418fb68f1d37687ec2072d3b64a9c3c6ee))
+* **youtube/return-youtube-dislike:** compatibility for old and new button layout ([6629bd7](https://github.com/TheNoFace/revanced-patches/commit/6629bd71716a753be06617724e536b8ab4c3b69a))
+* **youtube/sponsorblock:** skip segments once automatically ([#907](https://github.com/TheNoFace/revanced-patches/issues/907)) ([afc7588](https://github.com/TheNoFace/revanced-patches/commit/afc75882062a9316dbc28a9dc4f990cf88b52654))
+* **youtube:** bump patches compatibility to v17.41.37 ([#888](https://github.com/TheNoFace/revanced-patches/issues/888)) ([11ed0c0](https://github.com/TheNoFace/revanced-patches/commit/11ed0c0fb3236d87284806d2fa957699e908cc61))
+
 # [2.46.0](https://github.com/TheNoFace/revanced-patches/compare/v2.45.0...v2.46.0) (2022-10-27)
 
 
