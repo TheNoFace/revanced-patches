@@ -1,3 +1,11 @@
+## [2.47.1](https://github.com/TheNoFace/revanced-patches/compare/v2.47.0...v2.47.1) (2022-11-01)
+
+
+### Bug Fixes
+
+* **youtube/theme-patch:** respect app specific theme ([#946](https://github.com/TheNoFace/revanced-patches/issues/946)) ([fe8d6c7](https://github.com/TheNoFace/revanced-patches/commit/fe8d6c7b2c10be5cca0717b6a03cfa1bef10e2c0))
+* **youtube/video-ads:** add switch to temporarily fix buffering issues ([7aa3bce](https://github.com/TheNoFace/revanced-patches/commit/7aa3bce6ccd669a66de10ef6ffe2151f27b40365))
+
 # [2.47.0](https://github.com/TheNoFace/revanced-patches/compare/v2.46.0...v2.47.0) (2022-10-31)
 
 
