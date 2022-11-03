@@ -1,3 +1,10 @@
+# [2.48.0](https://github.com/TheNoFace/revanced-patches/compare/v2.47.1...v2.48.0) (2022-11-03)
+
+
+### Features
+
+* **youtube:** bump patches compatibility to v17.43.36 ([#924](https://github.com/TheNoFace/revanced-patches/issues/924)) ([3867514](https://github.com/TheNoFace/revanced-patches/commit/38675144dcb616474a047bcf8f7e1bf1f668ea46))
+
 ## [2.47.1](https://github.com/TheNoFace/revanced-patches/compare/v2.47.0...v2.47.1) (2022-11-01)
 
 
