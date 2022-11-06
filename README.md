@@ -103,10 +103,10 @@ The official Patch bundle provided by ReVanced and the community.
 | `custom-video-buffer` | Lets you change the buffers of videos. | 17.43.36 |
 | `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. | all |
 | `always-autorepeat` | Always repeats the playing video again. | 17.43.36 |
-| `enable-debugging` | Enables app debugging by patching the manifest file. | all |
-| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.43.36 |
+| `debugging` | Adds debugging options. | all |
 | `minimized-playback` | Enables minimized and background playback. | 17.43.36 |
-| `custom-playback-speed` | Adds more video playback speed options. | 17.43.36 |
+| `custom-video-speed` | Adds more video speed options. | 17.43.36 |
+| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.43.36 |
 | `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.43.36 |
 </details>
 
@@ -131,16 +131,16 @@ The official Patch bundle provided by ReVanced and the community.
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.29.52 |
-| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.29.52 |
-| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.29.52 |
-| `compact-header` | Hides the music category bar at the top of the homepage. | 5.29.52 |
-| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.29.52 |
-| `music-video-ads` | Removes ads in the music player. | 5.29.52 |
-| `background-play` | Enables playing music in the background. | 5.29.52 |
-| `exclusive-audio-playback` | Enables the option to play music without video. | 5.29.52 |
-| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.29.52 |
-| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.29.52 |
+| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.31.50 |
+| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.31.50 |
+| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.31.50 |
+| `compact-header` | Hides the music category bar at the top of the homepage. | 5.31.50 |
+| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.31.50 |
+| `music-video-ads` | Removes ads in the music player. | 5.31.50 |
+| `background-play` | Enables playing music in the background. | 5.31.50 |
+| `exclusive-audio-playback` | Enables the option to play music without video. | 5.31.50 |
+| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.31.50 |
+| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.31.50 |
 </details>
 
 ### 📦 `com.reddit.frontpage`
