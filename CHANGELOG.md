@@ -1,3 +1,18 @@
+# [2.49.0](https://github.com/TheNoFace/revanced-patches/compare/v2.48.0...v2.49.0) (2022-11-06)
+
+
+### Bug Fixes
+
+* apply multiple changes from integrations, refactor package structure, class names and implementations ([e756fac](https://github.com/TheNoFace/revanced-patches/commit/e756face362e4abf2c7b17afa536feed9b0cd631))
+* use original app name ([#977](https://github.com/TheNoFace/revanced-patches/issues/977)) ([ffc3c08](https://github.com/TheNoFace/revanced-patches/commit/ffc3c08d96734893121397d506a97bd50b06bc1d))
+* **youtube/video-information:** use correct compatibility annotation ([b42e048](https://github.com/TheNoFace/revanced-patches/commit/b42e04884bb9a60c3df30b668bfba55b1cf8eaa4))
+
+
+### Features
+
+* **debugging:** simplify patch name and description ([61762f7](https://github.com/TheNoFace/revanced-patches/commit/61762f76c457f348ef599e146f3853e941d4c45c))
+* **youtube-music:** bump patches compatibility to v5.31.50 ([#962](https://github.com/TheNoFace/revanced-patches/issues/962)) ([476fcc8](https://github.com/TheNoFace/revanced-patches/commit/476fcc87ca0d33cfbf251e4307755f02ed8f8baa))
+
 # [2.48.0](https://github.com/TheNoFace/revanced-patches/compare/v2.47.1...v2.48.0) (2022-11-03)
 
 
