@@ -1,3 +1,19 @@
+# [2.50.0](https://github.com/TheNoFace/revanced-patches/compare/v2.49.0...v2.50.0) (2022-11-10)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** incorrect description for info panels ([77b029e](https://github.com/TheNoFace/revanced-patches/commit/77b029e82e481a13516b1c8a888c42817507cdea))
+* **youtube/hide-endscreen-cards:** restore functionality ([#993](https://github.com/TheNoFace/revanced-patches/issues/993)) ([eb1bae2](https://github.com/TheNoFace/revanced-patches/commit/eb1bae2c55e65ad29030dce6746a18662dd0fe25))
+* **youtube/hide-info-cards:** remove initial popup of info-cards ([#992](https://github.com/TheNoFace/revanced-patches/issues/992)) ([19f3f03](https://github.com/TheNoFace/revanced-patches/commit/19f3f038585c313a969adf3d4095a60ab4c83ede))
+
+
+### Features
+
+* **hexeditor:** `disable-ads` patch ([#973](https://github.com/TheNoFace/revanced-patches/issues/973)) ([a48e5fd](https://github.com/TheNoFace/revanced-patches/commit/a48e5fd50dcf9ee061ffd5c5ed0b997067f40652))
+* **nyx:** `unlock-pro` patch ([#1004](https://github.com/TheNoFace/revanced-patches/issues/1004)) ([9dd8239](https://github.com/TheNoFace/revanced-patches/commit/9dd82391f3f97247224e09e0143b2272a3d47053))
+* **youtube:** `open-links-directly` patch ([#999](https://github.com/TheNoFace/revanced-patches/issues/999)) ([bf85f62](https://github.com/TheNoFace/revanced-patches/commit/bf85f62f30242f91bdaf53b44ae6a9a2b3b6e1b4))
+
 # [2.49.0](https://github.com/TheNoFace/revanced-patches/compare/v2.48.0...v2.49.0) (2022-11-06)
 
 
