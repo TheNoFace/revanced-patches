@@ -1,12 +1,12 @@
 package app.revanced.patches.youtube.ad.general.bytecode.patch
 
-import app.revanced.extensions.injectHideCall
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
+import app.revanced.patcher.extensions.softCompareTo
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.BytecodePatch
@@ -18,9 +18,8 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
+import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.ad.general.annotation.GeneralAdsCompatibility
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.findMutableMethodOf
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.ad.general.resource.patch.GeneralResourceAdsPatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -28,15 +27,18 @@ import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
 import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
 import app.revanced.patches.youtube.misc.settings.framework.components.impl.SwitchPreference
 import org.jf.dexlib2.Opcode
+import org.jf.dexlib2.builder.MutableMethodImplementation
 import org.jf.dexlib2.builder.instruction.BuilderInstruction10x
+import org.jf.dexlib2.iface.Method
+import org.jf.dexlib2.iface.instruction.Instruction
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
-import org.jf.dexlib2.iface.instruction.formats.Instruction21c
-import org.jf.dexlib2.iface.instruction.formats.Instruction22c
-import org.jf.dexlib2.iface.instruction.formats.Instruction31i
-import org.jf.dexlib2.iface.instruction.formats.Instruction35c
+import org.jf.dexlib2.iface.instruction.ReferenceInstruction
+import org.jf.dexlib2.iface.instruction.formats.*
 import org.jf.dexlib2.iface.reference.FieldReference
 import org.jf.dexlib2.iface.reference.MethodReference
+import org.jf.dexlib2.iface.reference.Reference
 import org.jf.dexlib2.iface.reference.StringReference
+import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 
 @Patch
 @DependsOn([ResourceMappingResourcePatch::class, IntegrationsPatch::class, SettingsPatch::class, GeneralResourceAdsPatch::class])
@@ -52,19 +54,12 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
     private val resourceIds = arrayOf(
         "ad_attribution",
         "reel_multiple_items_shelf",
-        "info_cards_drawer_header",
-        "endscreen_element_layout_video",
-        "endscreen_element_layout_circle",
-        "endscreen_element_layout_icon",
-        "promoted_video_item_land",
-        "promoted_video_item_full_bleed",
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
     private val stringReferences = arrayOf(
         "Claiming to use more elements than provided",
-        "loadVideo() called on LocalDirector in wrong state",
         "LoggingProperties are not in proto format"
     )
 
@@ -144,8 +139,8 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                 "revanced_adremover_info_panel",
                 StringResource("revanced_adremover_info_panel_enabled_title", "Remove info panels"),
                 true,
-                StringResource("revanced_adremover_info_panel_enabled_summary_on", "Merchandise banners are hidden"),
-                StringResource("revanced_adremover_info_panel_enabled_summary_off", "Merchandise banners are shown")
+                StringResource("revanced_adremover_info_panel_enabled_summary_on", "Info panels are hidden"),
+                StringResource("revanced_adremover_info_panel_enabled_summary_off", "Info panels are shown")
             ),
             SwitchPreference(
                 "revanced_adremover_medical_panel",
@@ -214,7 +209,6 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     // insert hide call to hide the view corresponding to the resource
                                     val viewRegister = (invokeInstruction as Instruction35c).registerC
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex, viewRegister)
-
                                 }
 
                                 resourceIds[1] -> { // reel ads
@@ -230,61 +224,6 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
 
                                     val viewRegister = (iPutInstruction as Instruction22c).registerA
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex, viewRegister)
-                                }
-
-                                resourceIds[2] -> { // info cards ads
-                                    //  and is followed by an instruction with the mnemonic INVOKE_VIRTUAL
-                                    val removeIndex = index - 1
-                                    val invokeInstruction = instructions.elementAt(removeIndex)
-                                    if (invokeInstruction.opcode != Opcode.INVOKE_VIRTUAL) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    //ToDo: Add Settings toggle for whatever this is
-                                    mutableMethod!!.implementation!!.removeInstruction(removeIndex)
-                                }
-
-                                resourceIds[3], resourceIds[4], resourceIds[5] -> { // end screen ads
-                                    //  and is followed by an instruction with the mnemonic IPUT_OBJECT
-                                    val insertIndex = index + 7
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.IPUT_OBJECT) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    // TODO: dynamically get registers
-                                    mutableMethod!!.addInstructions(
-                                        insertIndex, """
-                                                const/16 v1, 0x8
-                                                invoke-virtual {v0,v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-                                            """
-                                    )
-                                }
-
-                                resourceIds[6] -> {
-                                    //  and is followed by an instruction with the mnemonic INVOKE_DIRECT
-                                    val insertIndex = index + 3
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.INVOKE_DIRECT) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    // insert hide call to hide the view corresponding to the resource
-                                    val viewRegister = (invokeInstruction as Instruction35c).registerE
-                                    mutableMethod!!.implementation!!.injectHideCall(insertIndex, viewRegister)
-                                }
-
-                                resourceIds[7] -> {
-                                    // TODO, go to class, hide the inflated view
                                 }
                             }
                         }
@@ -308,11 +247,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     )
                                 }
 
-                                stringReferences[1] -> {
-                                    // TODO: migrate video ads patch to here if necessary
-                                }
-
-                                stringReferences[2] -> { // Litho ads
+                                stringReferences[1] -> { // Litho ads
                                     val proxy = context.proxy(classDef)
                                     val proxiedClass = proxy.mutableClass
 
@@ -379,5 +314,46 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
         it.implementation?.instructions?.any { instruction ->
             instruction.opcode == Opcode.CONST && (instruction as Instruction31i).narrowLiteral == lithoConstant
         } ?: false
+    }
+
+    private fun MutableClass.findMutableMethodOf(
+        method: Method
+    ) = this.methods.first {
+        it.softCompareTo(
+            ImmutableMethodReference(
+                method.definingClass, method.name, method.parameters, method.returnType
+            )
+        )
+    }
+
+    private inline fun <reified T : Reference> Instruction.toDescriptor(): String {
+        val reference = (this as ReferenceInstruction).reference
+        return when (T::class) {
+            MethodReference::class -> {
+                val methodReference = reference as MethodReference
+                "${methodReference.definingClass}->${methodReference.name}(${
+                    methodReference.parameterTypes.joinToString(
+                        ""
+                    ) { it }
+                })${methodReference.returnType}"
+            }
+
+            FieldReference::class -> {
+                val fieldReference = reference as FieldReference
+                "${fieldReference.definingClass}->${fieldReference.name}:${fieldReference.type}"
+            }
+
+            else -> throw PatchResultError("Unsupported reference type")
+        }
+    }
+
+    private fun MutableMethodImplementation.injectHideCall(
+        index: Int,
+        register: Int
+    ) {
+        this.addInstruction(
+            index,
+            "invoke-static { v$register }, Lapp/revanced/integrations/patches/HideHomeAdsPatch;->HideHomeAds(Landroid/view/View;)V".toInstruction()
+        )
     }
 }
