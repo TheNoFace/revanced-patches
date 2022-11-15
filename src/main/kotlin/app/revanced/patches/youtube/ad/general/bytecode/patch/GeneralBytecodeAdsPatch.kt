@@ -33,7 +33,10 @@ import org.jf.dexlib2.iface.Method
 import org.jf.dexlib2.iface.instruction.Instruction
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 import org.jf.dexlib2.iface.instruction.ReferenceInstruction
-import org.jf.dexlib2.iface.instruction.formats.*
+import org.jf.dexlib2.iface.instruction.formats.Instruction21c
+import org.jf.dexlib2.iface.instruction.formats.Instruction22c
+import org.jf.dexlib2.iface.instruction.formats.Instruction31i
+import org.jf.dexlib2.iface.instruction.formats.Instruction35c
 import org.jf.dexlib2.iface.reference.FieldReference
 import org.jf.dexlib2.iface.reference.MethodReference
 import org.jf.dexlib2.iface.reference.Reference
@@ -115,11 +118,11 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                 StringResource("revanced_adremover_feed_survey_enabled_summary_off", "Feed surveys are shown")
             ),
             SwitchPreference(
-                "revanced_adremover_shorts_shelf",
-                StringResource("revanced_adremover_shorts_shelf_enabled_title", "Remove shorts shelf"),
+                "revanced_adremover_shorts",
+                StringResource("revanced_adremover_shorts_enabled_title", "Remove shorts"),
                 true,
-                StringResource("revanced_adremover_shorts_shelf_enabled_summary_on", "Shorts shelves are hidden"),
-                StringResource("revanced_adremover_shorts_shelf_enabled_summary_off", "Shorts shelves are shown")
+                StringResource("revanced_adremover_shorts_enabled_summary_on", "Shorts are hidden"),
+                StringResource("revanced_adremover_shorts_enabled_summary_off", "Shorts are shown")
             ),
             SwitchPreference(
                 "revanced_adremover_community_guidelines",
@@ -174,9 +177,38 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                 "revanced_adremover_hide_channel_guidelines",
                 StringResource("revanced_adremover_hide_channel_guidelines_enabled_title", "Hide channel guidelines"),
                 true,
-                StringResource("revanced_adremover_hide_channel_guidelines_enabled_summary_on", "Channel guidelines are hidden"),
-                StringResource("revanced_adremover_hide_channel_guidelines_enabled_summary_off", "Channel guidelines are shown")
+                StringResource(
+                    "revanced_adremover_hide_channel_guidelines_enabled_summary_on",
+                    "Channel guidelines are hidden"
+                ),
+                StringResource(
+                    "revanced_adremover_hide_channel_guidelines_enabled_summary_off",
+                    "Channel guidelines are shown"
+                )
             ),
+            SwitchPreference(
+                "revanced_adremover_self_sponsor",
+                StringResource("revanced_adremover_self_sponsor_enabled_title", "Hide self sponsored cards"),
+                true,
+                StringResource("revanced_adremover_self_sponsor_enabled_summary_on", "Self sponsored cards are hidden"),
+                StringResource("revanced_adremover_self_sponsor_enabled_summary_off", "Self sponsored cards are shown")
+            ),
+            SwitchPreference(
+                "revanced_adremover_chapter_teaser",
+                StringResource(
+                    "revanced_adremover_chapter_teaser_enabled_title",
+                    "Hide chapter teaser under videos"
+                ),
+                true,
+                StringResource(
+                    "revanced_adremover_chapter_teaser_enabled_summary_on",
+                    "Chapter teasers are hidden"
+                ),
+                StringResource(
+                    "revanced_adremover_chapter_teaser_enabled_summary_off",
+                    "Chapter teasers are shown"
+                )
+            )
         )
 
         // iterating through all classes is expensive
