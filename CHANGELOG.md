@@ -1,3 +1,24 @@
+# [2.51.0](https://github.com/TheNoFace/revanced-patches/compare/v2.50.0...v2.51.0) (2022-11-15)
+
+
+### Bug Fixes
+
+* **youtube/custom-branding:** use high resolution icons ([#1018](https://github.com/TheNoFace/revanced-patches/issues/1018)) ([1c9d1ac](https://github.com/TheNoFace/revanced-patches/commit/1c9d1acf2b7aff4cd52d17009ff01246f74d2214))
+
+
+### Features
+
+* **ticktick:** `unlock-themes` patch ([#1028](https://github.com/TheNoFace/revanced-patches/issues/1028)) ([7f1fedc](https://github.com/TheNoFace/revanced-patches/commit/7f1fedcddd4330a5f884b813a20f2f8e84e2c9da))
+* **twitch/show-deleted-messages:** `show-deleted-messages` patch ([#1030](https://github.com/TheNoFace/revanced-patches/issues/1030)) ([7e6b453](https://github.com/TheNoFace/revanced-patches/commit/7e6b4534013a03ddc7eb11a1f911fa0564372118))
+* **twitch:** `block-audio-ads` patch ([#1041](https://github.com/TheNoFace/revanced-patches/issues/1041)) ([3419bae](https://github.com/TheNoFace/revanced-patches/commit/3419baed489ce231f84b3e2d600cf123cdfa7ff7))
+* **twitch:** `block-video-ads` patch  ([#1040](https://github.com/TheNoFace/revanced-patches/issues/1040)) ([b47bf24](https://github.com/TheNoFace/revanced-patches/commit/b47bf24d1b52cfa1883a942894a6216ae81b8325))
+* **twitch:** `debug-mode` patch ([#1031](https://github.com/TheNoFace/revanced-patches/issues/1031)) ([c514860](https://github.com/TheNoFace/revanced-patches/commit/c514860bc4a46295b11f09df9ffc1c556b798eb3))
+* **youtube/debugging:** include by default & add option to debug on Android ([9d6d5b2](https://github.com/TheNoFace/revanced-patches/commit/9d6d5b29227980aacb4c1331161afb3fa265bbe4))
+* **youtube/debugging:** use more suitable preference title ([d182351](https://github.com/TheNoFace/revanced-patches/commit/d182351e789bcbfb7982774406449e8d973765b2))
+* **youtube/general-ads:** hide chapter teaser under videos ([9cf415a](https://github.com/TheNoFace/revanced-patches/commit/9cf415a894ab5458134ef1cd5a4c5bf7579e592c))
+* **youtube/general-ads:** hide self sponsored cards ([b627d75](https://github.com/TheNoFace/revanced-patches/commit/b627d751b49c228e52f7f9fb5d2bcacb9d243a64))
+* **youtube/general-ads:** hide shorts in search ([c01ba5c](https://github.com/TheNoFace/revanced-patches/commit/c01ba5cbcc694f8c9ee83a4e9eb081cf5b45753c))
+
 # [2.50.0](https://github.com/TheNoFace/revanced-patches/compare/v2.49.0...v2.50.0) (2022-11-10)
 
 
