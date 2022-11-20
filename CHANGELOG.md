@@ -1,3 +1,20 @@
+# [2.52.0](https://github.com/TheNoFace/revanced-patches/compare/v2.51.0...v2.52.0) (2022-11-20)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** hide ads with buttons ([97fd3fd](https://github.com/TheNoFace/revanced-patches/commit/97fd3fda79ff4bb2fadd0e6c4aa80b96d71f46da))
+* **youtube/general-ads:** import correct compatibility annotation ([#1065](https://github.com/TheNoFace/revanced-patches/issues/1065)) ([db2085c](https://github.com/TheNoFace/revanced-patches/commit/db2085c217311a8b7d45a01c03c6162bc60a9298))
+* **youtube/litho-filter:** use correct type for switch case ([#1068](https://github.com/TheNoFace/revanced-patches/issues/1068)) ([ab03511](https://github.com/TheNoFace/revanced-patches/commit/ab03511e23d07c7c40b58eae5791fb2a798289de))
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1076](https://github.com/TheNoFace/revanced-patches/issues/1076)) ([52b3d90](https://github.com/TheNoFace/revanced-patches/commit/52b3d909bbe59dafaea0cb9da1c27bdd0cda502f))
+* **iconpackstudio:** `unlock-pro` patch ([#1047](https://github.com/TheNoFace/revanced-patches/issues/1047)) ([fcbca9c](https://github.com/TheNoFace/revanced-patches/commit/fcbca9cf0ff3940c48df53a9e5e4d06d65f9a1b1))
+* **youtube/general-ads:** custom component filter ([b5e81d0](https://github.com/TheNoFace/revanced-patches/commit/b5e81d0eaff3ab67a59ccd45eac6bf9414ed1380))
+* **youtube/general-ads:** hide gray separators ([59693f0](https://github.com/TheNoFace/revanced-patches/commit/59693f007192c195258cea3a222d7fb94b6385c2))
+
 # [2.51.0](https://github.com/TheNoFace/revanced-patches/compare/v2.50.0...v2.51.0) (2022-11-15)
 
 
