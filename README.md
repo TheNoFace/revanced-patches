@@ -4,6 +4,14 @@ The official Patch bundle provided by ReVanced and the community.
 
 > Looking for the JSON variant of this? [Click here](patches.json).
 
+### 📦 `ginlemon.iconpackstudio`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks all pro features. | all |
+</details>
+
 ### 📦 `com.ss.android.ugc.trill`
 <details>
 
@@ -134,6 +142,14 @@ The official Patch bundle provided by ReVanced and the community.
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-themes` | Unlocks all themes. | all |
+</details>
+
+### 📦 `com.shervinkoushan.anyTracker`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-premium` | Unlocks all premium features. | all |
 </details>
 
 ### 📦 `tv.twitch.android.app`
