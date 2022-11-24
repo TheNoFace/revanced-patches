@@ -1,3 +1,27 @@
+# [2.53.0](https://github.com/TheNoFace/revanced-patches/compare/v2.52.0...v2.53.0) (2022-11-24)
+
+
+### Bug Fixes
+
+* **tiktok/settings:** make compatible with newer versions ([#1057](https://github.com/TheNoFace/revanced-patches/issues/1057)) ([e1d5d64](https://github.com/TheNoFace/revanced-patches/commit/e1d5d6492ed660f43c87c796a59e766ea6b8ead0))
+* **youtube/general-ads:** hide bytecode home ad view ([4976ad4](https://github.com/TheNoFace/revanced-patches/commit/4976ad44b1867c93e976d91075b5bcead8d69c90))
+* **youtube/general-ads:** hide reels shelf ([a436663](https://github.com/TheNoFace/revanced-patches/commit/a436663e7755fc714c735df626d39bbd94f83dbb))
+* **youtube/general-ads:** remove unused switch ([43cddcc](https://github.com/TheNoFace/revanced-patches/commit/43cddcc85830524cd88d87ae1178f11451f158d8))
+
+
+### Features
+
+* **anytracker:** remove `unlock-premium` patch ([#1094](https://github.com/TheNoFace/revanced-patches/issues/1094)) ([c3818be](https://github.com/TheNoFace/revanced-patches/commit/c3818befc6e342ff04bc8e9fde84a667c123d7ab))
+* **tiktok:** `tiktok-web-login` patch ([#593](https://github.com/TheNoFace/revanced-patches/issues/593)) ([233e578](https://github.com/TheNoFace/revanced-patches/commit/233e578b4d1cd5e783369e0c855e8246d158f8ed))
+* **twitch:** ˋintegrationsˋ  dependency patch ([#1074](https://github.com/TheNoFace/revanced-patches/issues/1074)) ([a84ca7e](https://github.com/TheNoFace/revanced-patches/commit/a84ca7ec04389c3665358a7d239c615214fd327d))
+* **youtube/general-ads:** normalize switch names ([7636180](https://github.com/TheNoFace/revanced-patches/commit/763618002ab6ccd9cd23889275c0e9b23642763e))
+* **youtube/theme:** exclude the patch by default ([57358ed](https://github.com/TheNoFace/revanced-patches/commit/57358edc4cf3ae6b05cfb51359f66fc94c71cb5c))
+* **youtube/theme:** make amoled the default color for dark theme background" ([2b68ac7](https://github.com/TheNoFace/revanced-patches/commit/2b68ac7796e54ed07c697909a84b3847f4ed7f01))
+* **youtube/theme:** make dark the default color for dark theme background ([db44fa6](https://github.com/TheNoFace/revanced-patches/commit/db44fa6f5adad19384970dad58784b2bf5fe1007))
+* **youtube:** `disable-zoom-haptics` patch ([#1079](https://github.com/TheNoFace/revanced-patches/issues/1079)) ([a7cfba5](https://github.com/TheNoFace/revanced-patches/commit/a7cfba54fbb3ee0ee5511a45d0b3c4620eb0c861))
+* **youtube:** `remove-player-button-background` patch ([#855](https://github.com/TheNoFace/revanced-patches/issues/855)) ([9e14817](https://github.com/TheNoFace/revanced-patches/commit/9e14817fd2ef29b9f3ec161d74ab972ba19066b0))
+* **youtube:** bump patches compatibility to v17.45.36 ([ab7dfd8](https://github.com/TheNoFace/revanced-patches/commit/ab7dfd8ee1d902095811ed91b80aa0ed362ee9c5))
+
 # [2.52.0](https://github.com/TheNoFace/revanced-patches/compare/v2.51.0...v2.52.0) (2022-11-20)
 
 
