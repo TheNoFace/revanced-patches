@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.misc.mapping.patch
+package app.revanced.patches.shared.mapping.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit
 @Name("resource-mapping")
 @Description("Creates a map of public resources.")
 @Version("0.0.1")
-class ResourceMappingResourcePatch : ResourcePatch {
+class ResourceMappingPatch : ResourcePatch {
     companion object {
         internal lateinit var resourceMappings: List<ResourceElement>
             private set
