@@ -1,3 +1,27 @@
+# [2.54.0](https://github.com/TheNoFace/revanced-patches/compare/v2.53.0...v2.54.0) (2022-12-01)
+
+
+### Bug Fixes
+
+* **youtube/custom-video-speed:** fuzzy scan on fingerprint  ([#1135](https://github.com/TheNoFace/revanced-patches/issues/1135)) ([7b2cf56](https://github.com/TheNoFace/revanced-patches/commit/7b2cf5698b85f7e2a901f6085c53d042660dc5c7))
+
+
+### Features
+
+* **backdrops:** `pro-unlock` patch ([#1121](https://github.com/TheNoFace/revanced-patches/issues/1121)) ([76b5449](https://github.com/TheNoFace/revanced-patches/commit/76b5449c61c97e8ad9f87fb7173c9819815744ba))
+* **citra:** `premium-unlock` patch ([#1115](https://github.com/TheNoFace/revanced-patches/issues/1115)) ([86a3def](https://github.com/TheNoFace/revanced-patches/commit/86a3def0f63a0529e44302472afc03cb0c8d566b))
+* **crunchyroll:** `enable-downloads` patch ([#1119](https://github.com/TheNoFace/revanced-patches/issues/1119)) ([84d7bfd](https://github.com/TheNoFace/revanced-patches/commit/84d7bfdbf8a6bfc25f52653a1b243f1291eb0da9))
+* **myexpenses:** `unlock-pro` patch ([#1120](https://github.com/TheNoFace/revanced-patches/issues/1120)) ([e1a327a](https://github.com/TheNoFace/revanced-patches/commit/e1a327a15d4289d9708546cc40f423597f22a66d))
+* **tiktok:** `sim-spoof` patch ([#1088](https://github.com/TheNoFace/revanced-patches/issues/1088)) ([53bb547](https://github.com/TheNoFace/revanced-patches/commit/53bb547cc1003859f1d42db819a897e120b17fbe))
+* **twitch/block-embedded-ads:** `block-embedded-ads` patch support ([#1160](https://github.com/TheNoFace/revanced-patches/issues/1160)) ([641d33f](https://github.com/TheNoFace/revanced-patches/commit/641d33fc7e213031124491bb468fb382267769aa))
+* **twitch:** `settings` patch ([#1075](https://github.com/TheNoFace/revanced-patches/issues/1075)) ([6e95b86](https://github.com/TheNoFace/revanced-patches/commit/6e95b86e50cb09b60d82b456d4650218436ed154))
+* **twitch:** remove `block-embedded-ads` patch ([#1164](https://github.com/TheNoFace/revanced-patches/issues/1164)) ([ecc1eae](https://github.com/TheNoFace/revanced-patches/commit/ecc1eaef4daa7dfecb7913c378188b2b4685e610))
+* **twitch:** settings for patches ([#1142](https://github.com/TheNoFace/revanced-patches/issues/1142)) ([ed56f94](https://github.com/TheNoFace/revanced-patches/commit/ed56f94f12c3bee46ab370b2e3b7890d1181d53d))
+* **windyapp:** `unlock-pro` patch ([#1118](https://github.com/TheNoFace/revanced-patches/issues/1118)) ([d866634](https://github.com/TheNoFace/revanced-patches/commit/d866634f83976df44b26848e0b70e9952d5d06ae))
+* **youtube/enable-wide-searchbar:** bump compatibility to v17.45.36 ([66ce54c](https://github.com/TheNoFace/revanced-patches/commit/66ce54c9921e6fbf5bbe52d73b0182352181f2b8))
+* **youtube/hide-create-button:** bump compatibility to v17.45.36 ([751f604](https://github.com/TheNoFace/revanced-patches/commit/751f6047ba1589593d881ad523727d00dfb2609b))
+* **youtube/hide-shorts-button:** bump compatibility to v17.45.36 ([51bfa7a](https://github.com/TheNoFace/revanced-patches/commit/51bfa7afd1720d958847a44ae636de722311a199))
+
 # [2.53.0](https://github.com/TheNoFace/revanced-patches/compare/v2.52.0...v2.53.0) (2022-11-24)
 
 
