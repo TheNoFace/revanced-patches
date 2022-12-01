@@ -12,19 +12,28 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-pro` | Unlocks all pro features. | all |
 </details>
 
+### 📦 `org.citra.citra_emu`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `premium-unlock` | Unlocks premium functions. | all |
+</details>
+
 ### 📦 `com.ss.android.ugc.trill`
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `tiktok-ads` | Removes ads from TikTok. | all |
-| `tiktok-speed` | Enables the playback speed option for all videos. | all |
-| `tiktok-download` | Removes download restrictions and changes the default path to download to. | all |
-| `tiktok-seekbar` | Show progress bar for all video. | all |
-| `tiktok-settings` | Adds settings for ReVanced to TikTok. | all |
-| `tiktok-force-login` | Do not force login. | all |
-| `tiktok-web-login` | Allows logging in with a Google account. | all |
-| `tiktok-feed-filter` | Filters tiktok videos: removing ads, removing livestreams. | all |
+| `hide-ads` | Removes ads from TikTok. | all |
+| `playback-speed` | Enables the playback speed option for all videos. | all |
+| `downloads` | Removes download restrictions and changes the default path to download to. | all |
+| `show-seekbar` | Shows progress bar for all video. | all |
+| `settings` | Adds settings for ReVanced to TikTok. | all |
+| `fix-google-login` | Allows logging in with a Google account. | all |
+| `disable-login-requirement` | Do not force login. | all |
+| `sim-spoof` | Spoofs the information which is retrieved from the sim-card. | all |
+| `feed-filter` | Filters tiktok videos: removing ads, removing livestreams. | all |
 </details>
 
 ### 📦 `com.zhiliaoapp.musically`
@@ -32,14 +41,15 @@ The official Patch bundle provided by ReVanced and the community.
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `tiktok-ads` | Removes ads from TikTok. | all |
-| `tiktok-speed` | Enables the playback speed option for all videos. | all |
-| `tiktok-download` | Removes download restrictions and changes the default path to download to. | all |
-| `tiktok-seekbar` | Show progress bar for all video. | all |
-| `tiktok-settings` | Adds settings for ReVanced to TikTok. | all |
-| `tiktok-force-login` | Do not force login. | all |
-| `tiktok-web-login` | Allows logging in with a Google account. | all |
-| `tiktok-feed-filter` | Filters tiktok videos: removing ads, removing livestreams. | all |
+| `hide-ads` | Removes ads from TikTok. | all |
+| `playback-speed` | Enables the playback speed option for all videos. | all |
+| `downloads` | Removes download restrictions and changes the default path to download to. | all |
+| `show-seekbar` | Shows progress bar for all video. | all |
+| `settings` | Adds settings for ReVanced to TikTok. | all |
+| `fix-google-login` | Allows logging in with a Google account. | all |
+| `disable-login-requirement` | Do not force login. | all |
+| `sim-spoof` | Spoofs the information which is retrieved from the sim-card. | all |
+| `feed-filter` | Filters tiktok videos: removing ads, removing livestreams. | all |
 </details>
 
 ### 📦 `com.twitter.android`
@@ -86,10 +96,10 @@ The official Patch bundle provided by ReVanced and the community.
 | `hide-crowdfunding-box` | Hides the crowdfunding box between the player and video description. | 17.45.36 |
 | `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.45.36 |
 | `hide-video-buttons` | Adds options to hide action buttons under a video. | 17.45.36 |
-| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.43.36 |
+| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.45.36 |
 | `hide-captions-button` | Hides the captions button on video player. | 17.45.36 |
-| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.43.36 |
-| `hide-create-button` | Hides the create button in the navigation bar. | 17.43.36 |
+| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.45.36 |
+| `hide-create-button` | Hides the create button in the navigation bar. | 17.45.36 |
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.45.36 |
 | `remove-player-button-background` | Removes the background from the video player buttons. | 17.45.36 |
 | `hide-endscreen-cards` | Hides the suggested video cards at the end of a video in fullscreen. | 17.45.36 |
@@ -148,15 +158,41 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-themes` | Unlocks all themes. | all |
 </details>
 
+### 📦 `com.crunchyroll.crunchyroid`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `enable-downloads` | Enables downloads for Crunchyroll. | all |
+</details>
+
+### 📦 `org.totschnig.myexpenses`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks all professional features. | all |
+</details>
+
 ### 📦 `tv.twitch.android.app`
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `debug-mode` | Enables Twitch's internal debugging mode. | all |
+| `block-embedded-ads` | Blocks embedded steam ads using services like TTV.lol or PurpleAdBlocker. | all |
 | `block-audio-ads` | Blocks audio ads in streams and VODs. | all |
 | `block-video-ads` | Blocks video ads in streams and VODs. | all |
+| `settings` | Adds settings menu to Twitch. | all |
 | `show-deleted-messages` | Shows deleted chat messages behind a clickable spoiler. | all |
+</details>
+
+### 📦 `co.windyapp.android`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks all pro features. | all |
 </details>
 
 ### 📦 `com.garzotto.pflotsh.ecmwf_a`
@@ -199,6 +235,14 @@ The official Patch bundle provided by ReVanced and the community.
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-pro` | Unlocks all pro features. | all |
+</details>
+
+### 📦 `com.backdrops.wallpapers`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `pro-unlock` | Unlocks pro-only functions. | all |
 </details>
 
 
