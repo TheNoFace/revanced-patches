@@ -39,12 +39,12 @@ The official Patch bundle provided by ReVanced and the community.
 | `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.45.36 |
 | `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.45.36 |
 | `hide-video-buttons` | Adds options to hide action buttons under a video. | 17.45.36 |
-| `hide-watch-in-vr` | Hides the Watch in VR option from the player settings flyout panel. | 17.45.36 |
+| `hide-watch-in-vr` | Hides the Watch in VR option in the player settings flyout panel. | 17.45.36 |
 | `hide-watermark` | Hides creator's watermarks on videos. | 17.45.36 |
 | `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.45.36 |
 | `minimized-playback` | Enables minimized and background playback. | 17.45.36 |
-| `old-quality-layout` | Enables the original quality flyout menu. | 17.45.36 |
-| `open-links-directly` | Bypasses redirect links and allows opening links directly. | 17.45.36 |
+| `old-quality-layout` | Enables the original video quality flyout in the video player settings | 17.45.36 |
+| `open-links-directly` | Bypasses URL redirects and opens links directly inside YouTube app. | 17.45.36 |
 | `premium-heading` | Shows premium branding on the home screen. | all |
 | `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.45.36 |
 | `remove-player-button-background` | Removes the background from the video player buttons. | 17.45.36 |
@@ -113,6 +113,7 @@ The official Patch bundle provided by ReVanced and the community.
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `block-audio-ads` | Blocks audio ads in streams and VODs. | all |
+| `block-embedded-ads` | Blocks embedded steam ads using services like TTV.lol or PurpleAdBlocker. | all |
 | `block-video-ads` | Blocks video ads in streams and VODs. | all |
 | `debug-mode` | Enables Twitch's internal debugging mode. | all |
 | `settings` | Adds settings menu to Twitch. | all |
@@ -204,14 +205,6 @@ The official Patch bundle provided by ReVanced and the community.
 | `promo-code-unlock` | Disables the validation of promo code. Any code will work to unlock all features. | all |
 </details>
 
-### 📦 `com.urbandroid.sleep`
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-premium` | Unlocks all premium features. | all |
-</details>
-
 ### 📦 `com.shervinkoushan.anyTracker`
 <details>
 
@@ -220,28 +213,20 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-premium` | Unlocks all premium features. | all |
 </details>
 
-### 📦 `ginlemon.iconpackstudio`
+### 📦 `com.urbandroid.sleep`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-premium` | Unlocks all premium features. | all |
+</details>
+
+### 📦 `com.awedea.nyx`
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-pro` | Unlocks all pro features. | all |
-</details>
-
-### 📦 `com.ithebk.expensemanager`
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-pro` | Unlocks pro features. | all |
-</details>
-
-### 📦 `org.totschnig.myexpenses`
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-pro` | Unlocks all professional features. | all |
 </details>
 
 ### 📦 `co.windyapp.android`
@@ -252,7 +237,23 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-pro` | Unlocks all pro features. | all |
 </details>
 
-### 📦 `com.awedea.nyx`
+### 📦 `org.totschnig.myexpenses`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks all professional features. | all |
+</details>
+
+### 📦 `com.ithebk.expensemanager`
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks pro features. | all |
+</details>
+
+### 📦 `ginlemon.iconpackstudio`
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
