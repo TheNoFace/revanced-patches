@@ -1,3 +1,25 @@
+# [2.55.0](https://github.com/TheNoFace/revanced-patches/compare/v2.54.0...v2.55.0) (2022-12-11)
+
+
+### Bug Fixes
+
+* **anytracker:** syntax error in fingerprint ([#1165](https://github.com/TheNoFace/revanced-patches/issues/1165)) ([46ad786](https://github.com/TheNoFace/revanced-patches/commit/46ad786b1488814494080ca48cff27c361c47ca1))
+* syntax error in compatiblity annotation ([#1181](https://github.com/TheNoFace/revanced-patches/issues/1181)) ([0830c7e](https://github.com/TheNoFace/revanced-patches/commit/0830c7ed1064757cf6354b426549275ece55408e))
+* **youtube:** swipe gesture on home screen ([9294084](https://github.com/TheNoFace/revanced-patches/commit/929408406b53d8b0db69f092c3e191791b9fa8ee)), closes [#610](https://github.com/TheNoFace/revanced-patches/issues/610)
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1165](https://github.com/TheNoFace/revanced-patches/issues/1165)) ([e7ed324](https://github.com/TheNoFace/revanced-patches/commit/e7ed324bb5216037be0646a698e7e808fbf03e4e))
+* **moneymanager:** `unlock-premium` patch ([#1173](https://github.com/TheNoFace/revanced-patches/issues/1173)) ([438c1bc](https://github.com/TheNoFace/revanced-patches/commit/438c1bca684c7d47bd5a401b4dccbaddef604650))
+* **music:** bump compatibility to v5.34.51 ([fc0c92e](https://github.com/TheNoFace/revanced-patches/commit/fc0c92e2b68a2d93a02f4577aeb864955b1b5701))
+* **sleepasandroid:** `unlock-premium` patch ([#1172](https://github.com/TheNoFace/revanced-patches/issues/1172)) ([580ddcd](https://github.com/TheNoFace/revanced-patches/commit/580ddcdf1f8ef4a525f772630b3c085b706e4dc7))
+* sort README patch table by amount of patches per package ([40cb14e](https://github.com/TheNoFace/revanced-patches/commit/40cb14e1838aee5b49b60094cd134ed7e1726c3f))
+* **youtube/debugging:** print stack traces ([9cea382](https://github.com/TheNoFace/revanced-patches/commit/9cea382750456434d0547351ee7d4013eac9de9c))
+* **youtube/return-youtube-dislike:** improve settings labels ([#1203](https://github.com/TheNoFace/revanced-patches/issues/1203)) ([fb4a612](https://github.com/TheNoFace/revanced-patches/commit/fb4a612592d82857b0e892a6f5d135dbd657c44d))
+* **youtube/return-youtube-dislike:** show dislike as a percentage ([#1185](https://github.com/TheNoFace/revanced-patches/issues/1185)) ([cbbab0b](https://github.com/TheNoFace/revanced-patches/commit/cbbab0b4069534a2032258f9a09e9690fc68c291))
+* **youtube:** drop support for compatibility of old versions ([7413aad](https://github.com/TheNoFace/revanced-patches/commit/7413aad6d215f24a66ba9a33917c73dbdb0b7bc3))
+
 # [2.54.0](https://github.com/TheNoFace/revanced-patches/compare/v2.53.0...v2.54.0) (2022-12-01)
 
 
