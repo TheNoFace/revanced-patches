@@ -6,10 +6,6 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
-<<<<<<< HEAD
-import app.revanced.patcher.patch.BytecodePatch
-=======
->>>>>>> upstream/main
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
@@ -17,18 +13,11 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.settings.preference.impl.StringResource
 import app.revanced.patches.shared.settings.preference.impl.SwitchPreference
-<<<<<<< HEAD
-import app.revanced.patches.twitch.ad.video.annotations.VideoAdsCompatibility
-import app.revanced.patches.twitch.ad.video.fingerprints.AdsManagerFingerprint
-import app.revanced.patches.twitch.ad.video.fingerprints.CheckAdEligibilityLambdaFingerprint
-import app.revanced.patches.twitch.ad.video.fingerprints.ContentConfigShowAdsFingerprint
-=======
 import app.revanced.patches.twitch.ad.shared.util.AbstractAdPatch
 import app.revanced.patches.twitch.ad.video.annotations.VideoAdsCompatibility
 import app.revanced.patches.twitch.ad.video.fingerprints.CheckAdEligibilityLambdaFingerprint
 import app.revanced.patches.twitch.ad.video.fingerprints.ContentConfigShowAdsFingerprint
 import app.revanced.patches.twitch.ad.video.fingerprints.GetReadyToShowAdFingerprint
->>>>>>> upstream/main
 import app.revanced.patches.twitch.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.twitch.misc.settings.bytecode.patch.SettingsPatch
 
@@ -38,22 +27,6 @@ import app.revanced.patches.twitch.misc.settings.bytecode.patch.SettingsPatch
 @Description("Blocks video ads in streams and VODs.")
 @VideoAdsCompatibility
 @Version("0.0.1")
-<<<<<<< HEAD
-class VideoAdsPatch : BytecodePatch(
-    listOf(
-        ContentConfigShowAdsFingerprint,
-        AdsManagerFingerprint,
-        CheckAdEligibilityLambdaFingerprint
-    )
-) {
-    private fun createConditionInstructions(register: String = "v0") = """
-        invoke-static { }, Lapp/revanced/twitch/patches/VideoAdsPatch;->shouldBlockVideoAds()Z
-        move-result $register
-        if-eqz $register, :show_video_ads
-    """
-
-    override fun execute(context: BytecodeContext): PatchResult {
-=======
 class VideoAdsPatch : AbstractAdPatch(
     "Lapp/revanced/twitch/patches/VideoAdsPatch;->shouldBlockVideoAds()Z",
     "show_video_ads",
@@ -111,7 +84,6 @@ class VideoAdsPatch : AbstractAdPatch(
             returnMethod = ReturnMethod('Z', "1")
         )
 
->>>>>>> upstream/main
         // Pretend our player is ineligible for all ads
         with(CheckAdEligibilityLambdaFingerprint.result!!) {
             mutableMethod.addInstructions(
@@ -123,9 +95,6 @@ class VideoAdsPatch : AbstractAdPatch(
                     move-result-object p0
                     return-object p0
                 """,
-<<<<<<< HEAD
-                listOf(ExternalLabel("show_video_ads", mutableMethod.instruction(0)))
-=======
                 listOf(ExternalLabel(skipLabelName, mutableMethod.instruction(0)))
             )
         }
@@ -142,7 +111,6 @@ class VideoAdsPatch : AbstractAdPatch(
                     return-object p1
                 """,
                 listOf(ExternalLabel(skipLabelName, mutableMethod.instruction(0)))
->>>>>>> upstream/main
             )
         }
 
@@ -151,31 +119,12 @@ class VideoAdsPatch : AbstractAdPatch(
             mutableMethod.addInstructions(0, """
                     ${createConditionInstructions()}
                     const/4 v0, 0
-<<<<<<< HEAD
-                    :show_video_ads
-=======
                     :$skipLabelName
->>>>>>> upstream/main
                     return v0
                 """
             )
         }
 
-<<<<<<< HEAD
-        // Block playAds call
-        with(AdsManagerFingerprint.result!!) {
-            mutableMethod.addInstructions(
-                0,
-                """
-                    ${createConditionInstructions()}
-                    return-void
-                """,
-                listOf(ExternalLabel("show_video_ads", mutableMethod.instruction(0)))
-            )
-        }
-
-=======
->>>>>>> upstream/main
         SettingsPatch.PreferenceScreen.ADS.CLIENT_SIDE.addPreferences(
             SwitchPreference(
                 "revanced_block_video_ads",
