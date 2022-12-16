@@ -173,7 +173,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `enable-downloads` | Enables downloads for Crunchyroll. | all |
 </details>
 
-### 📦 `com.garzotto.pflotsh.ecmwf_a`
+### [📦 `com.garzotto.pflotsh.ecmwf_a`](https://play.google.com/store/apps/details?id=com.garzotto.pflotsh.ecmwf_a)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
@@ -181,7 +181,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `pflotsh-ecmwf-subscription-unlock` | Unlocks all subscription features. | 3.5.4 |
 </details>
 
-### 📦 `org.citra.citra_emu`
+### [📦 `org.citra.citra_emu`](https://play.google.com/store/apps/details?id=org.citra.citra_emu)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
@@ -213,7 +213,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `promo-code-unlock` | Disables the validation of promo code. Any code will work to unlock all features. | all |
 </details>
 
-### 📦 `com.shervinkoushan.anyTracker`
+### [📦 `com.shervinkoushan.anyTracker`](https://play.google.com/store/apps/details?id=com.shervinkoushan.anyTracker)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
@@ -221,15 +221,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-premium` | Unlocks all premium features. | all |
 </details>
 
-### 📦 `com.urbandroid.sleep`
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-premium` | Unlocks all premium features. | all |
-</details>
-
-### 📦 `com.awedea.nyx`
+### [📦 `co.windyapp.android`](https://play.google.com/store/apps/details?id=co.windyapp.android)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |

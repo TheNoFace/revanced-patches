@@ -1,3 +1,17 @@
+# [2.56.0](https://github.com/TheNoFace/revanced-patches/compare/v2.55.0...v2.56.0) (2022-12-16)
+
+
+### Bug Fixes
+
+* **predictive-back-gesture:** create attribute, if it does not exist ([c00e771](https://github.com/TheNoFace/revanced-patches/commit/c00e7717053f806e3b5b3f0bf0ca9c2da07c289b))
+
+
+### Features
+
+* **citra:** add compatibility for canary package ([#1256](https://github.com/TheNoFace/revanced-patches/issues/1256)) ([42ec021](https://github.com/TheNoFace/revanced-patches/commit/42ec0218d829ea15759f83562d24588ce97cb646))
+* link packages to Google PlayStore ([#1272](https://github.com/TheNoFace/revanced-patches/issues/1272)) ([97892e0](https://github.com/TheNoFace/revanced-patches/commit/97892e01044c74916375aeebcc094d3304e14f4e))
+* **sleepasandroid:** remove `unlock-premium` patch ([#1253](https://github.com/TheNoFace/revanced-patches/issues/1253)) ([414f503](https://github.com/TheNoFace/revanced-patches/commit/414f503e493f2dc27edf134f5db723da77636d81))
+
 # [2.55.0](https://github.com/TheNoFace/revanced-patches/compare/v2.54.0...v2.55.0) (2022-12-11)
 
 
