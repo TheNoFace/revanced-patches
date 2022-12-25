@@ -165,14 +165,6 @@ The official Patch bundle provided by ReVanced and the community.
 | `disable-ads` | Disables ads in HexEditor. | all |
 </details>
 
-### [📦 `com.crunchyroll.crunchyroid`](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `enable-downloads` | Enables downloads for Crunchyroll. | all |
-</details>
-
 ### [📦 `com.garzotto.pflotsh.ecmwf_a`](https://play.google.com/store/apps/details?id=com.garzotto.pflotsh.ecmwf_a)
 <details>
 
