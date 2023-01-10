@@ -12,6 +12,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `always-autorepeat` | Always repeats the playing video again. | 17.49.37 |
 | `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. | all |
 | `comments` | Hides components related to comments. | 17.49.37 |
+| `copy-video-url` | Adds buttons in player to copy video links. | 17.49.37 |
 | `custom-branding` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced). | all |
 | `custom-video-buffer` | Lets you change the buffers of videos. | 17.49.37 |
 | `custom-video-speed` | Adds more video speed options. | 17.49.37 |
@@ -47,6 +48,7 @@ The official Patch bundle provided by ReVanced and the community.
 | `old-quality-layout` | Enables the original video quality flyout in the video player settings | 17.49.37 |
 | `open-links-directly` | Bypasses URL redirects and opens links directly inside YouTube app. | 17.49.37 |
 | `premium-heading` | Shows premium branding on the home screen. | all |
+| `remember-playback-rate` | Adds the ability to remember the playback rate you chose in the video playback rate flyout. | 17.49.37 |
 | `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.49.37 |
 | `remove-player-button-background` | Removes the background from the video player buttons. | 17.49.37 |
 | `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.49.37 |
