@@ -19,17 +19,28 @@ import app.revanced.patches.youtube.layout.returnyoutubedislike.annotations.Retu
 import app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints.*
 import app.revanced.patches.youtube.layout.returnyoutubedislike.resource.patch.ReturnYouTubeDislikeResourcePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
+import app.revanced.patches.youtube.misc.playertype.patch.PlayerTypeHookPatch
 import app.revanced.patches.youtube.misc.video.videoid.patch.VideoIdPatch
 
 @Patch
-@DependsOn([IntegrationsPatch::class, VideoIdPatch::class, ReturnYouTubeDislikeResourcePatch::class])
+@DependsOn(
+    [
+        IntegrationsPatch::class,
+        VideoIdPatch::class,
+        ReturnYouTubeDislikeResourcePatch::class,
+        PlayerTypeHookPatch::class,
+    ]
+)
 @Name("return-youtube-dislike")
 @Description("Shows the dislike count of videos using the Return YouTube Dislike API.")
 @ReturnYouTubeDislikeCompatibility
 @Version("0.0.1")
 class ReturnYouTubeDislikePatch : BytecodePatch(
     listOf(
-        TextComponentSpecParentFingerprint, LikeFingerprint, DislikeFingerprint, RemoveLikeFingerprint
+        TextComponentSpecParentFingerprint,
+        LikeFingerprint,
+        DislikeFingerprint,
+        RemoveLikeFingerprint,
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
@@ -59,7 +70,9 @@ class ReturnYouTubeDislikePatch : BytecodePatch(
 
             val conversionContextParam = 5
             val textRefParam = createComponentMethod.parameters.size - 2
-            val insertIndex = scanResult.stringsScanResult!!.matches.first().index - 2
+            // insert index must be 0, otherwise UI does not updated correctly in some situations
+            // such as switching from full screen or when using previous/next overlay buttons.
+            val insertIndex = 0
 
             createComponentMethod.addInstructions(
                 insertIndex,
