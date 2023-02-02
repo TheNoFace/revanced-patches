@@ -1,3 +1,50 @@
+# [2.59.0](https://github.com/TheNoFace/revanced-patches/compare/v2.58.0...v2.59.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* bump patcher dependency version ([a5d16d7](https://github.com/TheNoFace/revanced-patches/commit/a5d16d7a22168b519180684e0efa3b0450915d7b))
+* parse any kind of patch version ([66cd88f](https://github.com/TheNoFace/revanced-patches/commit/66cd88f4d8a9161a4c51b70f2384dcee92fe2aea))
+* **reddit/general-reddit-ads:** specify last version that works correctly ([#1495](https://github.com/TheNoFace/revanced-patches/issues/1495)) ([2a3bedd](https://github.com/TheNoFace/revanced-patches/commit/2a3bedd5608d2f23b174c4227ac167e44e54215e))
+* **twitter/hide-views-stats:** constrain to last working version ([#1522](https://github.com/TheNoFace/revanced-patches/issues/1522)) ([bf45817](https://github.com/TheNoFace/revanced-patches/commit/bf45817677fd058f9b255dbef5c1ca9aaec95531))
+* **youtube/general-ads:** move settings to correct preference screens ([cde45fc](https://github.com/TheNoFace/revanced-patches/commit/cde45fca769eddea64072f13f836d46560a4a89a))
+* **youtube/general-ads:** restore swipe back to exit gesture ([#1405](https://github.com/TheNoFace/revanced-patches/issues/1405)) ([2440587](https://github.com/TheNoFace/revanced-patches/commit/24405877dd935a757fa61c7580887c1a47a25ea9))
+* **youtube/hide-info-cards:** allow toggling visibility of info-cards ([#1464](https://github.com/TheNoFace/revanced-patches/issues/1464)) ([e6dcb55](https://github.com/TheNoFace/revanced-patches/commit/e6dcb55382441f03c4b1322ccd652a22db104254))
+* **youtube/microg-support:** replace new permission ([3d1cce5](https://github.com/TheNoFace/revanced-patches/commit/3d1cce5b4ca54c622b863f24febeb03a6060033c))
+* **youtube/open-links-directly:** use better titles and correct descriptions ([#1488](https://github.com/TheNoFace/revanced-patches/issues/1488)) ([2874bbe](https://github.com/TheNoFace/revanced-patches/commit/2874bbef154d28e56b5928048a255409a956a012))
+* **youtube/return-youtube-dislike:** do not fetch voting stats when watching shorts ([#1532](https://github.com/TheNoFace/revanced-patches/issues/1532)) ([f46fcad](https://github.com/TheNoFace/revanced-patches/commit/f46fcadd855a13d9f8916f21980abcf5564e97d7))
+* **youtube/settings:** resolve fingerprints robustly ([8e98605](https://github.com/TheNoFace/revanced-patches/commit/8e98605a7491d69e99c6b1aeb2de3db9396faa20))
+* **youtube/sponsorblock:** replace missing strings ([7b8f0db](https://github.com/TheNoFace/revanced-patches/commit/7b8f0db2c17da6488db1ec2c21a21a14ff8466aa))
+* **youtube:** reliably resolve fingerprints ([1598306](https://github.com/TheNoFace/revanced-patches/commit/1598306eb58ae8f8dc38b472628b237e55ec0f1b))
+* **youtube:** resolve duplicate preference keys ([#1550](https://github.com/TheNoFace/revanced-patches/issues/1550)) ([aafdb89](https://github.com/TheNoFace/revanced-patches/commit/aafdb891b2f0f243cb2d997a38ab3e6a7b46aba8))
+
+
+### Features
+
+* `remove-screenshot-restriction` patch ([#1455](https://github.com/TheNoFace/revanced-patches/issues/1455)) ([a16ab79](https://github.com/TheNoFace/revanced-patches/commit/a16ab7969d98b1e05ac896a4b9aa834cdac8734e))
+* explain how to capture crash logs [skip ci] ([f938ba8](https://github.com/TheNoFace/revanced-patches/commit/f938ba81ec98f06f508dbdceeabd29a0ea7bf1af))
+* **finanzonline:** `remove-bootloader-detection` patch ([3952138](https://github.com/TheNoFace/revanced-patches/commit/39521386c2296f46479e31c39ab245c2778ebd65))
+* **finanzonline:** `remove-root-detection` patch ([1d46d63](https://github.com/TheNoFace/revanced-patches/commit/1d46d63fdcf3cbce53a7719f4490225368c4d5ae))
+* **id-austria:** `remove-root-detection` patch ([3cf77cd](https://github.com/TheNoFace/revanced-patches/commit/3cf77cdb4ebbd128d29eedefa1ee35289e3c8058))
+* **id-austria:** `spoof-signature` patch ([355a847](https://github.com/TheNoFace/revanced-patches/commit/355a847b1ccd69c4ab2c356395c97b4871e53f1f))
+* **irplus:** `remove-ads` patch ([#1554](https://github.com/TheNoFace/revanced-patches/issues/1554)) ([9943a52](https://github.com/TheNoFace/revanced-patches/commit/9943a520d29ee89598b4aa6aba69ff83cb4768ce))
+* **music:** update patches compatibility to v5.38.53 ([#1453](https://github.com/TheNoFace/revanced-patches/issues/1453)) ([c7d116a](https://github.com/TheNoFace/revanced-patches/commit/c7d116afd7293924760e7b6c1de0ba5d6cbd00a0))
+* **music:** update patches compatibility to v5.39.52 ([#1484](https://github.com/TheNoFace/revanced-patches/issues/1484)) ([81d6527](https://github.com/TheNoFace/revanced-patches/commit/81d65273be81b5934e1cca543850db58f8df019e))
+* **music:** update patches compatibility to v5.40.51 ([#1541](https://github.com/TheNoFace/revanced-patches/issues/1541)) ([13143cb](https://github.com/TheNoFace/revanced-patches/commit/13143cb5260f8793d246633a6a506bdc9f3a3ce7))
+* **nova-launcher:** `unlock-prime` patch ([#1463](https://github.com/TheNoFace/revanced-patches/issues/1463)) ([cf710b2](https://github.com/TheNoFace/revanced-patches/commit/cf710b27740cce4b9a0fbdf03a494eb8c65246da))
+* **tiktok:** update patches compatibility to v27.8.3 ([#1483](https://github.com/TheNoFace/revanced-patches/issues/1483)) ([e72b3bd](https://github.com/TheNoFace/revanced-patches/commit/e72b3bd4e22f5ade7193ba6a3cdf61fcd91fba55))
+* **youtube/copy-video-url:** match icon style with native icon ([#1419](https://github.com/TheNoFace/revanced-patches/issues/1419)) ([e89e54c](https://github.com/TheNoFace/revanced-patches/commit/e89e54c316a2d99195d2b79e9176d34f6de0113c))
+* **youtube/general-ads:** remove hiding video shelf ([c4c9e5b](https://github.com/TheNoFace/revanced-patches/commit/c4c9e5bb3765d08d6653864d33546c25ba367292))
+* **youtube/microg-support:** check if Vanced MicroG is running in the background ([#1531](https://github.com/TheNoFace/revanced-patches/issues/1531)) ([81934ef](https://github.com/TheNoFace/revanced-patches/commit/81934efb39b8ed9b0a523ffd7c4d841227ac141f))
+* **youtube/remember-video-quality:** simplify settings switch state description ([9bd42ec](https://github.com/TheNoFace/revanced-patches/commit/9bd42ec1a1b54b103cd2550211515acdaf90e9de))
+* **youtube/return-youtube-dislike:** style for minimum width ([#1454](https://github.com/TheNoFace/revanced-patches/issues/1454)) ([fd782aa](https://github.com/TheNoFace/revanced-patches/commit/fd782aa0a37edf2344425c80afafb2c87851bc1a))
+* **youtube:** `copy-video-url` patch ([#1402](https://github.com/TheNoFace/revanced-patches/issues/1402)) ([bf982e8](https://github.com/TheNoFace/revanced-patches/commit/bf982e8d7765c2a89a5475b6db8b203a3ac4ddf9))
+* **youtube:** `open-links-externally` patch ([#1524](https://github.com/TheNoFace/revanced-patches/issues/1524)) ([caf3d70](https://github.com/TheNoFace/revanced-patches/commit/caf3d70c30bc440923c0e76e7331010905f6e729))
+* **youtube:** `remember-playback-rate` patch ([177e908](https://github.com/TheNoFace/revanced-patches/commit/177e908dba260f184a2835b73b834563ca9c29fd))
+* **youtube:** `spoof-app-version` patch ([#1449](https://github.com/TheNoFace/revanced-patches/issues/1449)) ([bd4d3b5](https://github.com/TheNoFace/revanced-patches/commit/bd4d3b5706f26e398292df952ca8aec6c7dd1d6a))
+* **youtube:** remove `fix-playback` patch ([edcb6cc](https://github.com/TheNoFace/revanced-patches/commit/edcb6cc94961aaebe2df884db3049b2afa79f38f))
+* **youtube:** show toasts along exceptions ([#1511](https://github.com/TheNoFace/revanced-patches/issues/1511)) ([5817e4d](https://github.com/TheNoFace/revanced-patches/commit/5817e4d27fab692c0e95ab4aa2fa8f13005cb780))
+
 # [2.58.0](https://github.com/TheNoFace/revanced-patches/compare/v2.57.0...v2.58.0) (2022-12-31)
 
 

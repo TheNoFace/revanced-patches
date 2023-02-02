@@ -228,12 +228,28 @@ The official Patch bundle provided by ReVanced and the community.
 | `promo-code-unlock` | Disables the validation of promo code. Any code will work to unlock all features. | all |
 </details>
 
+### [📦 `net.binarymode.android.irplus`](https://play.google.com/store/apps/details?id=net.binarymode.android.irplus)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `remove-ads` | Removes all ads from the app. | all |
+</details>
+
 ### [📦 `com.shervinkoushan.anyTracker`](https://play.google.com/store/apps/details?id=com.shervinkoushan.anyTracker)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-premium` | Unlocks all premium features. | all |
+</details>
+
+### [📦 `com.teslacoilsw.launcher`](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-prime` | Unlocks Nova Prime and all functions of the app. | all |
 </details>
 
 ### [📦 `co.windyapp.android`](https://play.google.com/store/apps/details?id=co.windyapp.android)
