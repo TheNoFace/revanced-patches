@@ -201,6 +201,30 @@ The official Patch bundle provided by ReVanced and the community.
 | `enable-on-demand` | Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads. | all |
 </details>
 
+### [📦 `com.nis.app`](https://play.google.com/store/apps/details?id=com.nis.app)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `hide-ads` | Removes ads from Inshorts. | all |
+</details>
+
+### [📦 `com.facebook.orca`](https://play.google.com/store/apps/details?id=com.facebook.orca)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `hide-inbox-ads` | Hides ads in inbox. | all |
+</details>
+
+### [📦 `com.instagram.android`](https://play.google.com/store/apps/details?id=com.instagram.android)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `hide-timeline-ads` | Removes ads from the timeline. | all |
+</details>
+
 ### [📦 `com.garzotto.pflotsh.ecmwf_a`](https://play.google.com/store/apps/details?id=com.garzotto.pflotsh.ecmwf_a)
 <details>
 
@@ -257,12 +281,36 @@ The official Patch bundle provided by ReVanced and the community.
 | `remove-broadcasts-restriction` | Enables starting/stopping NetGuard via broadcasts. | all |
 </details>
 
+### [📦 `com.dci.dev.androidtwelvewidgets`](https://play.google.com/store/apps/details?id=com.dci.dev.androidtwelvewidgets)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-paid-widgets` | Unlocks paid widgets of the app | all |
+</details>
+
+### [📦 `com.microblink.photomath`](https://play.google.com/store/apps/details?id=com.microblink.photomath)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-plus` | Unlocks plus features. | 8.9.0 |
+</details>
+
 ### [📦 `com.shervinkoushan.anyTracker`](https://play.google.com/store/apps/details?id=com.shervinkoushan.anyTracker)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-premium` | Unlocks all premium features. | all |
+</details>
+
+### [📦 `io.yuka.android`](https://play.google.com/store/apps/details?id=io.yuka.android)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-premium` | Unlocks premium features. | all |
 </details>
 
 ### [📦 `com.teslacoilsw.launcher`](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
@@ -273,28 +321,12 @@ The official Patch bundle provided by ReVanced and the community.
 | `unlock-prime` | Unlocks Nova Prime and all functions of the app. | all |
 </details>
 
-### [📦 `ginlemon.iconpackstudio`](https://play.google.com/store/apps/details?id=ginlemon.iconpackstudio)
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-pro` | Unlocks all pro features. | all |
-</details>
-
 ### [📦 `co.windyapp.android`](https://play.google.com/store/apps/details?id=co.windyapp.android)
 <details>
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-pro` | Unlocks all pro features. | all |
-</details>
-
-### [📦 `com.ithebk.expensemanager`](https://play.google.com/store/apps/details?id=com.ithebk.expensemanager)
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `unlock-pro` | Unlocks pro features. | all |
 </details>
 
 ### [📦 `org.totschnig.myexpenses`](https://play.google.com/store/apps/details?id=org.totschnig.myexpenses)
@@ -311,6 +343,22 @@ The official Patch bundle provided by ReVanced and the community.
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `unlock-pro` | Unlocks pro features. | 4.6364 |
+</details>
+
+### [📦 `com.ithebk.expensemanager`](https://play.google.com/store/apps/details?id=com.ithebk.expensemanager)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks pro features. | all |
+</details>
+
+### [📦 `ginlemon.iconpackstudio`](https://play.google.com/store/apps/details?id=ginlemon.iconpackstudio)
+<details>
+
+| 💊 Patch | 📜 Description | 🏹 Target Version |
+|:--------:|:--------------:|:-----------------:|
+| `unlock-pro` | Unlocks all pro features. | all |
 </details>
 
 ### [📦 `com.awedea.nyx`](https://play.google.com/store/apps/details?id=com.awedea.nyx)
